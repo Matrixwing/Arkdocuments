@@ -3,8 +3,8 @@ layout:     post
 title:      "你无法在同一条赛道上超越已经领先你的人"
 subtitle:   "李翔 商业内参"
 date:       2015-09-12
-author:     "Hux"
-header-img: "img/post-bg-js-version.jpg"
+author:     "矩阵小助手"
+header-img: "img/gs.jpg"
 tags:
     - 投资
     - 理财
