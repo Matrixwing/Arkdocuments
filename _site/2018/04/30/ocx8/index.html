@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/Arkdocuments/img/favicon.ico">
+
+    <title>房产专家(三) - 知识账本 | 矩阵科技</title>
+
+    <link rel="canonical" href="http://localhost:4000/Arkdocuments/2018/04/30/ocx8/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/Arkdocuments/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/Arkdocuments/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/Arkdocuments/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link rel="stylesheet" href="/Arkdocuments/css/font-awesome.min.css">
+    
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/Arkdocuments/">知识账本</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/Arkdocuments/">主页</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/Arkdocuments/about/">关于</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/Arkdocuments/tags/">目录</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/Arkdocuments/img/article/fdc.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/Arkdocuments/img/article/fdc.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/Arkdocuments/tags/#房产财富精进指南" title="房产财富精进指南">房产财富精进指南</a>
+                        
+                    </div>
+                    <h1>房产专家(三)</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 矩阵小助手 on April 30, 2018</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<h2 id="房产专家三实业之殇上阿懒共读社005">房产专家(三)——实业之殇(上)[阿懒共读社005]</h2>
+<h4 id="来自付费社区房产财富精进指南-朱业胜">来自付费社区《房产财富精进指南》 朱业胜</h4>
+
+<hr />
+
+<p>【阿懒导读：本文主要讲了为什么实体经济赚钱困难。】</p>
+
+<p>名与利不可兼得。</p>
+
+<h6 id="一小微企业">（一）小微企业</h6>
+<p>年复一年，“实体不赚钱”几乎已经成为了一种共识。几乎每个人都在谈论着实体经济利润微薄，惨淡经营，成本高昂，销售困难，增长乏力，熬白了头发。</p>
+
+<p>实体不赚钱，只有投机倒把才赚钱。服务业赚钱超过制造业，而越是虚拟的服务业金融贸易买房，赚钱又超过具体服务业。</p>
+
+<p>实业业主奄奄一息。做一年工厂赚几百万。企业业主们一边咒骂着泡沫经济，一边熬白了头发苦苦支撑。</p>
+
+<p>按照公知的说法，我们的国家，已到了最危险的边缘。道德沦丧。</p>
+
+<p>拨乱反正，纠正社会的乱相。尊重实业，提高实业的利润。</p>
+
+<p>你是否也支持此类说法？</p>
+
+<p>【阿懒解读：实业不赚钱，政府年年关心、扶持。这样做，真的是理所当然的吗？欧神总是会从司空见惯的事件中、世俗的默认观点中，来深入思考，得出不同但是却更加深刻的见解。】</p>
+<h6 id="二实业之荣光">（二）实业之荣光</h6>
+<p>什么叫实业之荣光？</p>
+
+<p>如果你是一个内地省份教出来的，热血有志青年。满怀着民族复兴，报国就业的激情，你会怎么做？从小到大，我们受的教育，讲的是“实业救国”。</p>
+
+<p>几乎每一本教科书，都会和你说到旧社会金融的投机倒把。都会和你说到“一穷二白”。都会讲“洋枪大炮”。然后你心里热乎乎的，觉得踏踏实实做工业，炼钢铁做螺钉，才是报效祖国的最好办法。</p>
+
+<p>当一个内地省份的大学生，毕业踏上社会。如果他有幸拥有一定的社会基础，父辈传给他金钱，权势和人脉关系；</p>
+
+<p>那么，开一个工厂，招几百个工人，制造和生产各种轻工业品。是“最正当，最光荣，最道德高尚”的职业了。</p>
+
+<p>你也可以扪心自问想一想，在你的内心，是否也持有着同样的想法。</p>
+
+<p>【阿懒解读：请扪心自问，为什么“实业最高尚”成为了你头脑中默认正确的观念？】</p>
+
+<p>每一个人的内心，都住着一个愤青。</p>
+
+<p>这愤青虽然平时不说话，但一到关键时刻，譬如美国轰炸南使馆，9•18重播抗战大屠杀；愤青就会从你的脑海里蹦出来，热血盈眶。</p>
+
+<p>然后你会呼吁“实业救国”。你会希望造更多的矿山和工厂。会尊重做实业的人，把他们称为“国之栋梁”。</p>
+
+<p>【阿懒解读：请再次扪心自问，“实业”和“救国”，是怎么关联在一起的？】</p>
+
+<p>只有极少数的人，三观才是被洗过的。才不是这样想的。</p>
+
+<p>这些极少数的人，我们称之为“铅笔社”【阿懒备注：这是讲2015年的铅笔社。现在的铅笔社已经部分变质了】。</p>
+
+<h6 id="三实业之殇">（三）实业之殇</h6>
+<p>为什么会有实业之殇？</p>
+
+<p>实业之殇和实业之荣光，是彻底联系在一起的。一体二面，宛如道家之阴阳。</p>
+
+<p>有荣光必有殇。</p>
+
+<p>你仔细想一想，老师们传授最基本的道理：</p>
+
+<p>“一个行业如果太赚钱，就会吸引新的资本进入。增加供给，拉低利润。”</p>
+
+<p>任何一个行业，无论是钢铁，煤矿，造纸，化工，航运，高速公路。任何一个行业，归根到底其利润率，和高科技无关。而仅仅和“竞争对手”有关。</p>
+
+<p>竞争对手止步的利润率，才是你最终的利润率。</p>
+
+<p>实业为什么利润稀薄，因为太多的人做实业。</p>
+
+<p>买房为什么利润丰厚，因为太少的人在买房！</p>
+
+<p>【阿懒解读：利润率高，是因为竞争对手少；利润率低，是因为竞争对手太多。】</p>
+
+<p>实业的利润率会在什么时候止步？</p>
+
+<p>负数的时候也不止步。年轻人还在往里冲。因为光荣。</p>
+
+<p>当每一个年轻人踏上社会，他想做“实业”。他受的教育是“实业光荣”。招几百个工人做厂长，走到哪都有人叫你“老板”。</p>
+
+<p>多光荣，多体面，多有范。内心受到了极大的满足。老板老板老板。</p>
+
+<p>当你的父母，向旁人介绍儿子时，又是多么地骄傲。</p>
+
+<p>“我儿子开厂的。我们这个国家，归根到底实业才是栋梁。”</p>
+
+<p>你出去相亲，也是倍有范儿。</p>
+
+<p>回报的总体，是“名+利”。</p>
+
+<p>【阿懒解读：回报不仅有利润率，这个从“利”角度的回报，还有从“名”这个角度的回报，我们往往会忽略这一点。】</p>
+
+<p>名利相加，才是总收获。而这个收益率在各行各业是平均守恒的。</p>
+
+<p>一个行业，如果赚取了太多的“名”。那么他的“利”就一定不高。</p>
+
+<p>因为有荣誉，有名誉，吸引了“超出平衡”的人来从事这一个行业。其必然拉低回报，竞争激烈，毛利率低。辛苦一年白干活。</p>
+
+<p>而只有那些“名”很低，甚至政府调控的行业。参与的人数较少。才会保持很高的利润。</p>
+
+<p>【阿懒解读：“名与利不可兼得”，仔细思考这个问题。】</p>
+
+<p>全中国只有1000名不到的房产专家。这才是买房业获取高额利润速成富翁的基础。</p>
+
+<p>为什么实业利润率低，不赚钱，艰苦支撑？</p>
+
+<p>“因为荣誉。”</p>
+
+<p>“鼓励实业，提倡实业，会拉高实业利润率么？”</p>
+
+<p>“不会。只会让实业更加亏损。因为更大的荣誉。”</p>
+
+<p>【阿懒解读：利润率低，那么提升它的方法，是让竞争减少，而不是鼓励更多人进入实业，让利润率更低。越鼓励实业，实业越艰难。】</p>
+
+<p>经济学是一门很复杂的学科。是一门高度专业化的学科。</p>
+
+<p>专业的分析，和普通人的感观，几乎是彻底完全相反的。</p>
+
+<p>如果你想摧毁买房业。你要做的绝对不是喊打喊杀，恨不得游街杀头。</p>
+
+<p>相反的，你应该给买房客挂大红花，评选为“三八红旗手”“新长征突击手”。</p>
+
+<p>鲜车怒马，游街接受欢呼人民英雄。</p>
+
+<p>高中里要开设买房课，每年培养30万个专家。业外还有Bluefly（蓝翔）之类职业学校。</p>
+
+<p>到那一天，买房才算是垮了。沦为民工行业。每月只赚几千元体力活钱。</p>
+
+<p>到那时，我们可以考虑干实业去。</p>
+
+<p>【阿懒解读：这，才是经济学思考的逻辑。而不是我们一厢情愿的自以为是。经济自有其规律，不以人的主观意志为转移，如同物理学有万有引力定律一样。】</p>
+
+<p>思考题：
+你为什么会认为“实业光荣、买房可耻”？这是你认真思考的结果，还是媒体告诉你的？</p>
+
+<p>回顾：
+【阿懒共读社004】房产专家（二）
+【阿懒共读社003】房产专家（一）</p>
+
+
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/Arkdocuments/2018/04/30/ocx7/" data-toggle="tooltip" data-placement="top" title="房产专家(二)">&larr; 上一篇</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/Arkdocuments/2018/04/30/ocx9/" data-toggle="tooltip" data-placement="top" title="房产专家(三)——实业之殇(下)">下一篇 &rarr;</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/Arkdocuments/tags/">分类</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/Arkdocuments/tags/#李翔商业内参" title="李翔商业内参" rel="3">
+                                    李翔商业内参
+                                </a>
+                            
+        				
+                            
+                				<a href="/Arkdocuments/tags/#通往财富自由之路" title="通往财富自由之路" rel="11">
+                                    通往财富自由之路
+                                </a>
+                            
+        				
+                            
+                				<a href="/Arkdocuments/tags/#房产财富精进指南" title="房产财富精进指南" rel="16">
+                                    房产财富精进指南
+                                </a>
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>更多链接</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.matrixwing.com/">矩阵科技</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'false',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://matrixwing.gitee.io/arkdocuments/about/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">
+                    知识账本内容来源于网络，版权归原作者所有，如有侵权请立即与我们联系。<br>
+                    Copyright &copy; 知识账本 | 矩阵科技 2018
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/Arkdocuments/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/Arkdocuments/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/Arkdocuments/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("../js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("http://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = 'd507dff368b62c1f4ff4376e8b4142d2';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

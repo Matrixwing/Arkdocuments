@@ -12,9 +12,9 @@ baseurl: "/Arkdocuments"         # for example, '/blog' if your blog hosted on '
 
 # SNS settings
 #RSS: false
-weibo_username:     Matrixwing
-zhihu_username:     Matrixwing
-github_username:    Matrixwing
+#weibo_username:     Matrixwing
+#zhihu_username:     Matrixwing
+#github_username:    Matrixwing
 #twitter_username:  huxpro
 #facebook_username:  Matrixwing
 
@@ -50,16 +50,16 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: huxblog
+#duoshuo_username: huxblog
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: false                     # set to false if you want to use Comment without Sharing
+#duoshuo_share: false                     # set to false if you want to use Comment without Sharing
 
 
 
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: d507dff368b62c1f4ff4376e8b4142d2
 # Google Analytics
 #ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 #ga_domain: huangxuan.me
@@ -69,7 +69,7 @@ ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "做有价值的事,在我们的方舟上没有用户只有伙伴"
-sidebar-avatar: https://matrixwing.github.io/Arkdocuments/img/avatar.png     # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://gitee.com/matrixwing/Arkdocuments/raw/gh-pages/img/avatar.png    # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
