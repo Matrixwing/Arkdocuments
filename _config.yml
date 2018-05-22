@@ -69,7 +69,7 @@ ba_track_id: d507dff368b62c1f4ff4376e8b4142d2
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "做有价值的事,在我们的方舟上没有用户只有伙伴"
-sidebar-avatar: https://gitee.com/matrixwing/Arkdocuments/raw/gh-pages/img/avatar.png    # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://raw.githubusercontent.com/Matrixwing/Arkdocuments/gh-pages/img/avatar.png    # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
