@@ -84,5 +84,5 @@
 .highlight .gc { color: #999; background-color: #EAF2F5; }
 
 .subheading{
-  font-weight: 700;
+  font-weight: 700 !important;
 }
