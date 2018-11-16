@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>有损财务自由 - 认知升级 | 矩阵科技</title>
+
+    <link rel="canonical" href="http://localhost:4000/2018/11/14/ocx23/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">认知升级</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">主页</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">关于</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">目录</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/article/fdc.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/article/fdc.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#房产财富精进指南" title="房产财富精进指南">房产财富精进指南</a>
+                        
+                    </div>
+                    <h1>有损财务自由</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 欧成效 on November 14, 2018</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<blockquote>
+  <p>任何一个系统，都不可能自动产出。利息永远是负数。
+为啥。
+因为没付电费</p>
+</blockquote>
+
+<h2 id="一不劳而获">一）不劳而获</h2>
+
+<p>文科媒体小编，不知道什么时候，又开始盯上了“财务自由”这个话题。开始一顿猛啃。
+今日哥哥刷微信，连续看了很多篇批判文。例如：</p>
+
+<ul>
+  <li>
+    <p><a href="https://mp.weixin.qq.com/s/nOWD8PEMk8zxsLtW0tRRiw">《财务自由，是我听过最好笑的笑话》</a></p>
+  </li>
+  <li>
+    <p><a href="https://mp.weixin.qq.com/s/pZr47zrwUX54-erKGvlmLA">《毁掉一个年轻人最好的办法，就是向他鼓吹财务自由》</a></p>
+  </li>
+</ul>
+
+<p>我仔细看了一下社会上批判“财务自由”的文章，它们主要集中在二个方面。
+1）财务自由是不可能的。是永动机和乌托邦
+2）财务自由是不道德的。是社会的赘肉和寄生虫。</p>
+
+<p>咳咳，你说这事怎么解释吧。
+这事分析，你不能听文科生小编啊。你要听哥哥啊。
+“财务自由”这种事，你问那帮穷鬼干什么。</p>
+
+<h2 id="二左翼的质疑">二）左翼的质疑</h2>
+
+<p>我们来看“社会愤青”的这二个指责。
+第一个指责，他们认为财务自由是不可能的。尤其是“大范围人群”的财务自由，是不可能的。</p>
+
+<p>你设想一下，假设有某一种秘诀，使得社会上99%的人都财务自由了。 那么谁来养活他们呢？</p>
+
+<blockquote>
+  <p>一切的“赡养”都是<strong>现在式</strong>。你所以为的“储蓄”其实是不存在的。</p>
+
+  <p>你以为你在银行有50W元，可以够你吃吃喝喝好多年。</p>
+
+  <p>其实你喝的饮料，都是今天生产出来的。</p>
+
+  <p>人类消耗的一切物质，都是刚刚从流水上生产出来的。</p>
+</blockquote>
+
+<p>永远都是6亿劳动人口，在养活着13亿人民，+3亿老+4亿小。
+唯一的区别是，“结算”的环节不同。
+6亿人口，生产了超过自身的物资，但是收进了“纸币”。而老人失去“纸币”。</p>
+
+<p>若瘟疫把一个国家6亿人口杀光。这个国家必然是灭亡的。
+老人有再多的纸币，都没用。</p>
+
+<p>质疑者的疑问是，“财富自由”意味着一大批青壮年劳动力，退出劳动市场，成为“退休人士”。
+好比水库就很流行35岁的退休人士。
+如果你变成了5亿劳动，养活13亿人民，<strong>会不会导致系统崩溃，无力负担</strong>。</p>
+
+<p>左翼愤青人士的第二个质疑是，我们永远在“竭尽全力”增加全社会GDP的。
+好比太祖时期，为了尽快地完成工业化，逼迫工人每周工作80个小时。
+如果社会上“财务自由”的风气大为盛行。
+会不会侵蚀我们“勤劳朴实”的社会风气，并最终导致中华民族失去竞争力？</p>
+
+<h2 id="三有损财务自由">三）有损财务自由</h2>
+
+<p>对于以上种种责难，水库的回应，非常简单的四个字：“<strong>以上全错</strong>”。</p>
+
+<p>因为他们搞错了一件事情。</p>
+
+<ul>
+  <li>
+    <p>他们谈论的是“无损财务自由”</p>
+  </li>
+  <li>
+    <p><strong>而事实的真相是“有损财务自由”!</strong></p>
+  </li>
+</ul>
+
+<p>这帮沙雕文科生小编，这辈子从来就没见过钱！根本不知道有钱人的世界是怎样运转的。</p>
+
+<p>举个例子，知乎上面盐V的财务自由，标准是人民币100W元。
+因为他们的算法，每年“投资回报”5%，合计5W元。
+每个月4133元。</p>
+
+<p>在县城小城市，每个月四千多的吃吃喝喝，也够活得不错了。
+你看，是不是攒够一百万，就够财务自由。</p>
+
+<p>然后这群沙雕继续推算，如果你有100W，每年都领5W利息。是不是就不用工作了，不够公平了，社会丧失人力资源了…………</p>
+
+<blockquote>
+  <p>真正的“财务自由”模型，应该是怎样呢。</p>
+
+  <p>真正的“财务自由”，<strong>利率假设是0%，甚至是-2%</strong></p>
+</blockquote>
+
+<p>100W元，每年给你“负利息”变成98W元了。（其实是通胀）
+然后你再花了5W
+最后就只剩下93W了。</p>
+
+<p>屌丝在那里吓得屁滚尿流。“哎呀，完蛋了”，越滚越少了。
+屌丝的心，注定是<strong>不能承受任何损失</strong>的。
+屌丝看到这种不可持续方程式，有损方程式，妥吓得怀疑人生的。</p>
+
+<p>然后屌丝就要问，“100W第二年就剩93W了，那你还怎么退休呢”。
+你说怎么退休呢。</p>
+
+<h3 id="把数字加个零给你1000w你可不可以退休">把数字加个零！给你1000W，你可不可以退休。</h3>
+
+<p>如果你想要维持每年5W元的生活水准，你就需要1000W的净资产。而不是100W。</p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/3836857-eee2418f7ca46f65.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image" /></p>
+
+<p>如图，我们列了一个表格。算法是按照“98%-5”来计算的。</p>
+
+<p>在这个算法中，历经了约40年的衰减，最终还剩下318W元左右。
+如果继续再推演下去，<strong>到第81年左右，会耗尽最后一个铜板</strong>。
+30岁–&gt;111岁。</p>
+
+<blockquote>
+  <p>这意味着什么呢：</p>
+
+  <p><strong>只要你财力足够强，就可以长过你的寿命！</strong></p>
+</blockquote>
+
+<p>如果你是如此地有钱，可以花上二百年，三百年。 而人的寿命，区区不过几十载。</p>
+
+<blockquote>
+  <p>在你的有限寿命中，没有把钱花完，我们就可以认为你是“财务自由”的。</p>
+</blockquote>
+
+<p>天底下，从来没有“万世不移的财富”。
+屌丝若以为“一劳永逸”，猛赚一笔钱，千秋万代吃喝不愁。这是不可能的。</p>
+
+<p>但是你的钱可以足够多。
+“坐吃山空”，金币堆得象山一样高。则你还是可以吃一代人，二代人，三代人的。</p>
+
+<p><strong>如果你想维持每年花50W的生活质量，那你就需要一个亿</strong></p>
+
+<h2 id="四结语">四）结语</h2>
+
+<p>我们回答了二个问题。</p>
+
+<p>第一，有钱人有没有资格享用他们的财富，醉生梦死，提早退休。
+<strong>答案是：“正义”</strong></p>
+
+<p>因为“祖宗积德”。他们享受的，其实是祖宗之前生产、积累下的财富。
+没有任何法律禁止，我拼命地加几天夜班，然后休息一个星期。</p>
+
+<p>长途船舶海员，常常有工作半年，休息半年的例子。
+在海员休息的日子中，他们也并不是休息，而仅仅是消耗之前积累的福泽劳动。</p>
+
+<p>那么，把时间拉长到工作50年，休息50年。
+又有何不可呢。</p>
+
+<p>第二个问题是，“财富自由”可不可以持续。
+答：当然不能持续。</p>
+
+<p>亲，若不是你每年剥削我2%，本来我还可以撑得更久。
+“积德祖宗”后辈，才是受伤害最大的人。</p>
+
+<p>从正义的角度，我还得投诉你呢。</p>
+
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2018/11/14/ocx22/" data-toggle="tooltip" data-placement="top" title="显微镜下的世界">&larr; 上一篇</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2018/11/14/ocx24/" data-toggle="tooltip" data-placement="top" title="价格决定成本">下一篇 &rarr;</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">分类</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#李翔商业内参" title="李翔商业内参" rel="3">
+                                    李翔商业内参
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#通往财富自由之路" title="通往财富自由之路" rel="11">
+                                    通往财富自由之路
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南" title="房产财富精进指南" rel="24">
+                                    房产财富精进指南
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#每周一书" title="每周一书" rel="15">
+                                    每周一书
+                                </a>
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>更多链接</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.matrixwing.com/">矩阵科技</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'false',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://ark.matrixwing.com/about/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">
+                    知识账本内容来源于网络，版权归原作者所有，如有侵权请立即与我们联系。<br>
+                    Copyright &copy; 知识账本 | 矩阵科技 2018
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("../js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '2e8078b8f0e93105e1a9928997e9aada';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

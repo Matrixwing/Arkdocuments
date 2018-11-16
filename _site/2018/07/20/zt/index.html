@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>助推 - 认知升级 | 矩阵科技</title>
+
+    <link rel="canonical" href="http://localhost:4000/2018/07/20/zt/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">认知升级</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">主页</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">关于</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">目录</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/article/gs.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/article/gs.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#每周一书" title="每周一书">每周一书</a>
+                        
+                    </div>
+                    <h1>助推</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 矩阵小助手 on July 20, 2018</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<h1 id="助推">助推</h1>
+
+<h3 id="关于作者">关于作者</h3>
+<p>《助推》这本书的作者有两位，⼀位是理查德·泰勒，他是2017年诺贝尔经济学奖得主，也是行为经济学的创始⼈之一，目前是芝加哥大学布斯商学院行为科学与经济学教授。2002年的诺⻉尔经济学奖获得者丹尼尔·卡尼曼，曾把⾃己的获奖归功于泰勒，称他是 “第一位把⼼理学引⼊经济学”的学者。另外⼀位是哈佛大学法学院的卡斯·桑斯坦教授，他曾任职于美国司法部，担任过奥巴马政府“白宫信息”与“监察事务”办公室主任，他被哈佛大学商学院长称为:“我们这个时代影响力最大的法学家”。</p>
+<h3 id="关于本书">关于本书</h3>
+<p>本书介绍了 “助推”的含义和特点，解释了⼈们需要“助推”的缘由，并通过⼤量的实例介绍了在不同的情境下如何运⽤用“助推”， 引导⼈们做出预先设定好的选择。
+本书⾃2008年当年就被《金融时报》和《经济学⼈》评为年度最佳商业图书，同时也是亚马逊⽹站的“年度最佳十部商业图书”。</p>
+<h3 id="核内容">核⼼内容</h3>
+<p><img src="http://p9n1bl5yn.bkt.clouddn.com/WX20180720-163106@2x.png" alt="Image text" /></p>
+
+<p>本书的核心观点是:做选择时的“情境”，即时机和环境，影响了我们的选择。</p>
+<h3 id="一什么是助推">一、什么是“助推”?</h3>
+<p>所谓的“助推”，英⽂单词是nudge，原本的意思是“⽤胳膊肘轻推别人”。本书中，它的核心是，有意识地设置⼀种选择的“情境”， 引导⼈们做出特定的选择。</p>
+<h4 id="案例">【案例】</h4>
+<p>超市收银台，这里是最容易让顾客产⽣冲动购买的地方，所以很多超市在这里摆放话梅、⼝⾹糖、⼉童零食等，容易引起冲动性消费的东西。现在很多超市甚至连电梯扶⼿也都摆满了商品。助推的特点是:⾃自由主义的温和专制主义。</p>
+<h4 id="案例-1">【案例】</h4>
+<p>我们可以⽤恐怖的图片、⽤有倾向性的数字来宣传吸烟有害健康， 但最终抽烟还是不抽烟，仍然是个⼈的自由。美国蒙⼤拿州向青少年宣传戒烟的⼴广告是:⼤多数蒙大拿州⻘少年是不吸烟的，不吸烟的⽐比例在百分之七十以上。结果显示:这条信息显著降低了吸烟率。</p>
+<h3 id="二为什么我们需要助推">二、为什么我们需要“助推”?</h3>
+<p>为什么不让我们⾃己独⽴做出行为选择?传统的经济学家认为，我们都是“经济人”，我们知道“什么对我们最有利”，我们也会通过“精确的分析”，做出“最佳选择”。
+作者泰勒勒认为，我们不是理想中的“经济人”，只是一群“社会人”。 作为“社会⼈”，我们并不能理理性地做出选择，很多决策和行为常会受到偏见、惯性、懒惰、⽆知，等弱点的影响。</p>
+<h3 id="三我们应该如何利用助推过上更聪明的生活">三、我们应该如何利用“助推”，过上更聪明的生活?</h3>
+<p>本书介绍了三种“助推”的常用方法，帮助人们识破助推，或是为⾃己设计助推，成为更⾼级的决策者。</p>
+<h4 id="1把最佳选择设定为默认选项">1.把最佳选择设定为“默认选项”</h4>
+<p>这是因为，⼈们往往倾向于保持最初的默认状况，原因或者是出于懒惰，或者是出于缺乏相应知识。</p>
+<h4 id="案例-2">【案例】</h4>
+<p>某些购物网站会先给用户提供免费会员服务，试⽤期过后，如果客户没有提前主动取消，“默认选项”就会⾃动从你的信用卡划钱续费。</p>
+<h4 id="2通过改变措辞来助推他人做出选择">2.通过改变措辞来助推他人做出选择</h4>
+<p>“措辞”之所以有效，是因为人们在作出决策的时候，会有一种盲目和被动的⼼态，不会主动地把看到的信息转换为⾃己⼤脑所能理解的信息。</p>
+<h4 id="案例-3">【案例】</h4>
+<p>环保节能的两条宣传语。第⼀条是，“如果你采取节能措施，每年将会节约350元”;第二条是，“如果你不采取节能措施，每年将会浪费350元”。结果表明，第⼆条宣传语取得的效果远好于第一条，原因是与“获得”相比，⼈们更厌恶“损失”。</p>
+<h4 id="3有意识地针对我们可能要犯的错误设计出相应的助推情境">3.有意识地针对我们可能要犯的错误，设计出相应的助推情境</h4>
+<p>如果你喜欢赖床，可以去试试满地乱跑的闹钟;如果你拖延，可以和朋友打等等，为⾃己设置助推⼿段。 通过学习“助推”，我们能理解“选择”这件事情的机制和背后的逻辑。然后，我们可以识破⽣活中的⼀些⼩的陷阱，⽽且我们也可以设计出有利的情境，助推⾃己做出最好的决策。</p>
+<h3 id="金句">金句:</h3>
+<ol>
+  <li>做选择不是一件容易的事，那么我们就创造一种，⽅便你做选择的“环境”。</li>
+  <li>经济⼈的思维，如爱因斯坦般缜密，记忆力如计算机般强大，意志力如圣雄⽢地般坚韧。然而，⽇常⽣活中的普通⼈并不是这样。</li>
+  <li>现实中的有些选择，需要非常专业的知识或经验。而很多⼈的行为选择像盲⼈摸象一样，完全交给了运气，或者⼲脆回避选择。</li>
+  <li>不要⼩看语言的力量，当传达重要信息的时候，一定要仔细斟酌。</li>
+  <li>⼈最怕的不是“没得到”，⽽是“有损失”，这就是我们社会人的弱点，而且往这个损失体现在金钱上最为明显。</li>
+</ol>
+
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2018/07/13/hxzsw/" data-toggle="tooltip" data-placement="top" title="黑匣子思维">&larr; 上一篇</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2018/07/27/tpl/" data-toggle="tooltip" data-placement="top" title="谈判力">下一篇 &rarr;</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">分类</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#李翔商业内参" title="李翔商业内参" rel="3">
+                                    李翔商业内参
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#通往财富自由之路" title="通往财富自由之路" rel="11">
+                                    通往财富自由之路
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南" title="房产财富精进指南" rel="24">
+                                    房产财富精进指南
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#每周一书" title="每周一书" rel="15">
+                                    每周一书
+                                </a>
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>更多链接</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.matrixwing.com/">矩阵科技</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'false',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://ark.matrixwing.com/about/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">
+                    知识账本内容来源于网络，版权归原作者所有，如有侵权请立即与我们联系。<br>
+                    Copyright &copy; 知识账本 | 矩阵科技 2018
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("../js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '2e8078b8f0e93105e1a9928997e9aada';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

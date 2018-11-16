@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>显微镜下的世界 - 认知升级 | 矩阵科技</title>
+
+    <link rel="canonical" href="http://localhost:4000/2018/11/14/ocx22/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">认知升级</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">主页</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">关于</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">目录</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/article/fdc.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/article/fdc.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#房产财富精进指南" title="房产财富精进指南">房产财富精进指南</a>
+                        
+                    </div>
+                    <h1>显微镜下的世界</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 欧成效 on November 14, 2018</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<p><img src="http://upload-images.jianshu.io/upload_images/3836857-2141705529c9dddd.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image" /></p>
+
+<p>今天这篇，其实是写给肛锯的。
+前二天，肛锯又塞给了我几篇文章，#Y214~215之类的。</p>
+
+<p>选题是：《女朋友睡了我的朋友，该如何处理》。
+因为这家伙的文章，动辄上万字。哥哥最近又在出差，所以放出来，还需要几天。</p>
+
+<p>在这篇文章中，肛锯和哥哥产生了冲突。
+因为肛锯给出的对策是：“<strong>把女朋友送给兄弟</strong>”。
+哥哥回复说：“肛锯啊，此计虽毒，却只适合铁血江湖。不适合宫廷和上流社会”。</p>
+
+<p>肛锯有些不理解。
+鉴于#Y214还没有群发，我先写一篇解释。</p>
+
+<h2 id="一小钢珠">一）小钢珠</h2>
+
+<p>你学经济学，总有人告诉你“供应–需求”曲线。</p>
+
+<blockquote>
+  <p><strong>好比电费如果上涨20%，请问产出会如何削减。</strong>
+<strong>海运费用如果上涨20%，请问国际贸易会如何衰减。</strong>
+<strong>石油供应若削减20%，请问运输企业会如何影响。</strong></p>
+</blockquote>
+
+<p>这一类问题的回答，无非都是“价格上升，需求减少”。
+海运的关税如果增加+20%，必然导致一个国家出口贸易的减少。</p>
+
+<p>呃，这一套的经济学理论。全对，但也可以说以上全错。</p>
+
+<p>为什么，因为他是“小钢珠”假设。
+小钢珠是“初中物理”的奇葩。意思指<strong>一个具有一定质量，却没有形状，也没有尺寸，也没有大小，也没有弹性，不会产生任何压缩形变的完美理想刚体。</strong></p>
+
+<p>物理学里面解释“牛顿三定律”。
+包括加速度，小钢珠从斜坡上滚下来，掐秒表算时间，还要得意洋洋说“科学真伟大”。
+这些“实验”，都是用“小钢珠”做的。</p>
+
+<p>而在研究生物理中，“小钢珠”是被彻底嘲笑的。
+现实生活中，存不存在“小钢珠”，不存在。
+事实上，汽车前进的基本原理是压缩形变。如果轮胎是“小钢珠”的话，就根本没有汽车业了。
+永远也不会前进。</p>
+
+<p>在我们研究食物原理时，道理于此类似。比“小钢珠”更深一层的，是marketing.
+Marketing的基本精神：
+<strong>从来没有“铁板一块”。任何事情都可以切碎，细化，分类。</strong></p>
+
+<p>好比说，我们用“汽油涨价”+20%为例。
+按照“小钢珠”的说法，则应该中国全体国民，全体企业，一起削减出行。例如每个人都减少到85%频率。</p>
+
+<p>而按照marketing的思考方法，则是“细分”。
+<strong>首先把人群分为“富人，中产，穷人”。</strong>
+富人几乎不受影响。中产削减85%频率。而穷人干脆就不出门了。
+因此总答案不是85%。</p>
+
+<p>同样道理，如果“远洋贸易”成本+20%.
+则你要把国内企业，“分行业”类别，切碎来看。
+不同的企业，能承受的成本结构不同。越南巴西等“潜在竞争对手”的成熟度也不同。
+因此总体结果，是很复杂的一个参数。</p>
+
+<p>这还仅仅是“无机物”的情况。若是“有机物”，则情况更加复杂。
+例如6500万年前，外星人观察到，在蓝色星球上生存着庞大的巨型恐龙。战斗力强大。
+外星人毫不犹豫，赏了你一颗陨石。</p>
+
+<p>但陨石的结果，虽然摧毁了恐龙。地球动物99.9%灭绝。
+但是恐龙留下的空隙之中，活下来了哺乳动物。大脑最终进化出了人类。</p>
+
+<p>如果恐龙没有灭绝的话，凭当时的生存条件。恐龙已经存在了一亿年，科学家预期，恐龙完全有可能再存在一亿年，而没有任何“脑力”意义上的进化。</p>
+
+<p>外星人一颗陨石弹，反而促进了地球文明的爆发式发展。
+德国1917封锁冬宫港口，反而导致了苏维埃主义的兴起。
+因此“有机环境”更加复杂，几乎无法计算。而不仅仅是牛顿力学，能量守恒。</p>
+
+<p>扯得远了。Marketing的基本思想呢，就是细分。
+<strong>细分，细分，再细分。</strong></p>
+
+<p>永远没有“铁板一块”的市场，任何一样事物拿到手里，首先就恨不得用钉子锤子，把它分类成四五个品种。</p>
+
+<blockquote>
+  <p>一个好处，是骗稿费。只要“细分”，就可以新写很多报告</p>
+</blockquote>
+
+<h2 id="二价值">二）价值</h2>
+
+<p>回到肛锯#Y214的例子，肛锯说，“人类的复仇和繁衍本能，从远古走来，隐藏至深。从未改变”。</p>
+
+<p>他的这个说法是对的。
+但却忽略了一件事。</p>
+
+<p>从来不存在“人类”这个说法，就如同从来不存在“小钢珠”一样。
+一粒米养百样人。<strong>不同的人，手里的资源禀赋是不同的，他们的价值体系也是不同的。应对麻烦的方法，也是不同的。</strong></p>
+
+<p>不同的人群，心目中对于“价值”的估算不同。</p>
+
+<ul>
+  <li>穷人不惜一切追求金钱，追求“利益”。</li>
+  <li>中产也权衡良心和“性价比”。</li>
+  <li>富人几乎完全不在乎金钱。只追求情感。</li>
+</ul>
+
+<p>就好比一家人均1000的西餐厅。</p>
+
+<p>穷人会不屑一顾的地说，“哼，有什么好吃的。不也是牛肉么”。
+中产会权衡再三，比较了八遍大众点评网。最终趁打折促销去吃个团购。</p>
+
+<p>而对于富人来说，为什么在王品吃588午餐。为了节省时间啊。
+什么商务聚餐，生日聚餐。不存在的。
+就是食堂呀。</p>
+
+<p>因此肛锯犯的错误，他得出了一个结论。然后“铁板一块”地就刻印上去了。
+<strong>适合某个阶层的感受，可能完全不适合另一个阶层。</strong></p>
+
+<h2 id="三显微镜下的世界">三）显微镜下的世界</h2>
+
+<p>只要我把倍数放上去，我永远可以看见“更微观”的结构。</p>
+
+<ul>
+  <li>给你一把直尺，你以为是直的。但是在高倍放大镜下，粗糙不堪。</li>
+  <li>给你一个工业抛光钢锭。你以为是光滑的。但在隧道显微镜下，粗糙不堪。</li>
+  <li>太空镜的纳米涂层，是人类最光滑镜面。但在“水滴”尺度，依然粗糙不堪。</li>
+</ul>
+
+<p>Marketing是这样一种精神。你懒得写ppt的时候，你可以跟老板汇报“中国市场”“日本市场”。
+但你感觉快裁员时，你可以写“华东市场分析特色”“西北市场特征和针对促销”。然后你又找到了活干。</p>
+
+<p>进一步，还能写“杭州市场与苏州市场的差异”“西湖区和拱墅区的消费者差异”。这种事是没有尽头的。</p>
+
+<p>既然我永远可以把市场细分。你就别说你那一套是“普适真理”。
+在一个细分市场中，是有人喜好不同的。</p>
+
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2018/11/14/ocx21/" data-toggle="tooltip" data-placement="top" title="拉黑的游戏规则">&larr; 上一篇</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2018/11/14/ocx23/" data-toggle="tooltip" data-placement="top" title="有损财务自由">下一篇 &rarr;</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">分类</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#李翔商业内参" title="李翔商业内参" rel="3">
+                                    李翔商业内参
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#通往财富自由之路" title="通往财富自由之路" rel="11">
+                                    通往财富自由之路
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南" title="房产财富精进指南" rel="24">
+                                    房产财富精进指南
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#每周一书" title="每周一书" rel="15">
+                                    每周一书
+                                </a>
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>更多链接</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.matrixwing.com/">矩阵科技</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'false',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://ark.matrixwing.com/about/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">
+                    知识账本内容来源于网络，版权归原作者所有，如有侵权请立即与我们联系。<br>
+                    Copyright &copy; 知识账本 | 矩阵科技 2018
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("../js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '2e8078b8f0e93105e1a9928997e9aada';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

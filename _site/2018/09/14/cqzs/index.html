@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>出奇制胜 - 认知升级 | 矩阵科技</title>
+
+    <link rel="canonical" href="http://localhost:4000/2018/09/14/cqzs/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">认知升级</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">主页</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">关于</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">目录</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/article/gs.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/article/gs.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#每周一书" title="每周一书">每周一书</a>
+                        
+                    </div>
+                    <h1>出奇制胜</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 矩阵小助手 on September 14, 2018</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<h1 id="出奇制胜">出奇制胜</h1>
+
+<h3 id="关于作者">关于作者</h3>
+<p>美国记者沙恩·斯诺，采访了⼏十个“30岁以下超级成功⼈士”，他发现这些人创造财富的速度远快于上一辈⼈。他为《快公司》和 《连线》杂志做了一系列报道，把他们的成功归结为9条智径，从⽽彻底颠覆了传统。沙恩·斯诺同时也是创业者，他和朋友创⽴了一个内容交易平台，并被《福布斯》杂志评为“30位30岁以下的创新者之一”。</p>
+<h3 id="关于本书">关于本书</h3>
+<p>硅谷的独⻆兽公司、世界上最快致富的亿万富翁和一夜爆红的“⽹红”，他们的成功秘诀其实有一条——打破思维常规，探索新的路径。他总结出9条行之有效的快速上升管道，那就是紧盯浪潮、提升平台、寻找“超联”、认准导师、创造动能、横向换梯、学会减法、10倍思维、探索底线，让你快速登上顶峰。</p>
+<h3 id="核内容">核⼼内容</h3>
+<p>本书的核⼼观点是:通过研究那些“超级成功⼈士”的成功路径，告诉你在当今快速发展、快速迭代的世界里，如何⽐别⼈快速⼀步成功。通过采访几⼗个“30岁以下超级成功⼈士”，沙恩·斯诺总结出他们的成功取决于以下9条智径。
+<img src="http://p9n1bl5yn.bkt.clouddn.com/cqzs.png" alt="Image text" /></p>
+<h4 id="第一招紧盯浪潮">第一招:紧盯浪潮</h4>
+<p>作者认为:捕捉潮流有两种方法:⼀种是⾟勤⼯作;另外一种做法是，冷静观察。你⽆法判断潮头，那就瞄准⾏业第⼀，贴身跟跑，伺机超越，这就是⼀条捷径。</p>
+<h5 id="案例">【案例】</h5>
+<p>汽⻋行业的鼻祖是福特汽车公司，通⽤汽⻋通过紧紧瞄准行业第一，在20世纪第一个10年初期超过了它。⾕歌、脸谱⽹原来都不是在各⾃行业的老大，也通过贴身模仿、不断创新，原来行业第一远甩在了后面。</p>
+<h4 id="第二招提升平台">第二招:提升平台</h4>
+<p>所谓平台，指的是工具、技术、计算机或者⾼速公路，亦或一间好公司，甚至是⼀个良好的环境。要发展事业，平台很重要。付出同样的努力，在不同的平台上，效果就会截然不同。</p>
+<h5 id="案例-1">【案例】</h5>
+<p>为什么哈佛法学院的毕业⽣⽐其他学校的学生更易易找到工作，因为他们有平台。</p>
+<h4 id="第三招认准导师">第三招:认准导师</h4>
+<p>与其花⼤把时间⾃己去钻研学习，不如找⼀个世界级的实干家来指导你，这样会缩短你融会贯通的时间。⽽且，师傅可以帮徒弟跳级。</p>
+<h5 id="案例">【案例】</h5>
+<p>苏格拉底是柏拉图的导师，柏拉图⼜辅导了亚里⼠多德;亚里⼠多德教育了⼀个叫亚历山大的小男孩，这个男孩⻓大后就成为了征服者亚历⼭⼤大帝。</p>
+<h4 id="第四招寻找超联">第四招:寻找“超联”</h4>
+<p>“超联”，“超级联系人”的简称。有一种⼈或者机构，能使你的⼈脉几何级增长。这就是你的“超联”。</p>
+<h5 id="案例-2">【案例】</h5>
+<p>作家叫克·坎菲尔德卖书，导演艾布拉姆斯拍电影，都是找到了自⼰的“超联”，才走上成功之路的。</p>
+<h4 id="第五招创造动能">第五招:创造动能</h4>
+<p>要想驾驭潮流，就得善于积累潜在的能量，只有这样，才能让不期而遇的机遇升华为成倍放大的效果。</p>
+<h5 id="案例-3">【案例】</h5>
+<p>⽶歇尔·潘抓住了雷迪·嘎(Lady Gaga)发布《罗曼司》MV的时机，利用这股势能，上传了一段如何为雷迪·嘎化妆的视频。一时间，潘成为了⽹红。后来，她成功地把⾃己的视频业务升级为一家公司。</p>
+<h4 id="第六招横向换梯">第六招:横向换梯</h4>
+<p>在美国历史上，美国总统的年龄⽐国会议员年轻。作者分析，在历史上评分最⾼的⼏位总统中，他们在参选总统前，都不是政客，⽽是⾃⼰行业内鼎大名的⼈物，证明了⾃己的领导力，然后参选总统，就像换了把梯⼦，越换，攀登得越快。研究⼈员把这叫做“⼩胜”⼼理。每次取得⼀点小胜，⼠气被激发出来了，然后去换取另一次小胜，这样就会“积⼩胜为大胜”。</p>
+<h4 id="第七招学会减法">第七招:学会减法</h4>
+<p>颠覆性创新产品的主要特点是节约成本，可以节约时间或者金钱。</p>
+<h5 id="案例-1">【案例】</h5>
+<p>过去，美国的保育箱每台售价是2万到4万美元。简·陈和她的同事研制出一种“宝专⽤睡袋”。它有两个隔层:⼀层用来装宝，一层⽤来装热垫，⽽成本只有25美元。</p>
+<h4 id="第八招10倍思维">第八招:10倍思维</h4>
+<p>凡事要做就做大，⼤事业才能更好地发挥潜能，才能吸引大投资⼈、⼤牌顾问以及顶尖人才，成就轰轰烈烈的事业。</p>
+<h4 id="第九招探索底线">第九招:探索底线</h4>
+<p>就是要探索犯错误的“底线”在哪里，从⽽减少犯错误。</p>
+<h4 id="句">⾦句:</h4>
+<ol>
+  <li>运⽓好就是在“在正确的时间出现在正确的地⽅”。要做到这两个“正确”，⼀个是自身要有实力，⼆是需要时刻寻找和捕捉机遇。</li>
+  <li>与其花⼤把时间⾃己去钻研学习，不如找⼀个世界级的实干家来指导你，这样会缩短你融会贯通的时间。</li>
+  <li>安排你与1000个人交朋友，你可以去一个人一个人地认识，也可以去找一个已经拥有1000个朋友的人交朋友，把他的朋友都变成你的朋友，你⽤哪⼀一招?</li>
+  <li>要想驾驭潮流，就得善于积累潜在的能量，发挥动能，才能让不期⽽遇的机遇升华为成倍放大的效果。</li>
+  <li>学会利用“⼩胜”⼼理。每次取得一点⼩胜，⼠气被激发出来了， 然后去换取另一次小胜，这样就会“积⼩胜为⼤胜”。</li>
+  <li>你关注的越多，精⼒越分散，越不容易做到极致。</li>
+</ol>
+
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2018/08/31/ystp/" data-toggle="tooltip" data-placement="top" title="优势谈判">&larr; 上一篇</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2018/10/17/zbzw/" data-toggle="tooltip" data-placement="top" title="众病之王：癌症传">下一篇 &rarr;</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">分类</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#李翔商业内参" title="李翔商业内参" rel="3">
+                                    李翔商业内参
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#通往财富自由之路" title="通往财富自由之路" rel="11">
+                                    通往财富自由之路
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南" title="房产财富精进指南" rel="24">
+                                    房产财富精进指南
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#每周一书" title="每周一书" rel="15">
+                                    每周一书
+                                </a>
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>更多链接</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.matrixwing.com/">矩阵科技</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'false',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://ark.matrixwing.com/about/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">
+                    知识账本内容来源于网络，版权归原作者所有，如有侵权请立即与我们联系。<br>
+                    Copyright &copy; 知识账本 | 矩阵科技 2018
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("../js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '2e8078b8f0e93105e1a9928997e9aada';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

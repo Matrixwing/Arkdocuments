@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>过犹不及 - 认知升级 | 矩阵科技</title>
+
+    <link rel="canonical" href="http://localhost:4000/2018/08/03/gybj/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">认知升级</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">主页</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">关于</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">目录</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/article/gs.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/article/gs.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#每周一书" title="每周一书">每周一书</a>
+                        
+                    </div>
+                    <h1>过犹不及</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 矩阵小助手 on August 3, 2018</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<h1 id="过犹不及">过犹不及</h1>
+
+<h3 id="关于作者">【关于作者】</h3>
+<p>本书的作者是两位临床⼼理学家，亨利·克劳德和约翰·汤森德，他们俩简直像一对铁哥们，既是同窗好友，都毕业于美国百奥拉⼤学⼼理学专业，⼜一起合开过心理辅导诊所，之后，他们又⼀起写了一系列列关于心理界线的书，比如《为孩子⽴界线》，《为婚姻⽴界线》等等，来帮助更多的⼈建⽴起⾃己的⼼理界线。</p>
+
+<h3 id="关于本书">【关于本书】</h3>
+<p>说到这本书，它可来头不小。这本书1992年出版，第⼆年就获得了由基督徒出版社协会评选的⾦钟奖，是为数不多获此殊荣的书籍，而且销量早已突破百万。它介绍了如何建立你的⼼理界线，过一个自⼰说了算的⼈生。</p>
+
+<h3 id="核内容">【核⼼内容】</h3>
+<p><img src="http://p9n1bl5yn.bkt.clouddn.com/gybj.png" alt="Image text" />
+本书思想核心是:帮我们全面了解⼼理界线是什么，教我们识别并解决生活 中的界线冲突的问题，最后告诉我们如何重新建⽴⼀个成熟健全的⼼理界线。</p>
+
+<h3 id="一如何识别活中常见的四种界线问题">一、如何识别⽣活中常见的四种界线问题</h3>
+<p>做一个测试，看看你身上有哪种界线问题。这些问题分为四种，分别是:顺从者、控制者、独立者和没有反应者。<br />
+顺从者有两个特点，⼀个是害怕孤独，⼀个是不懂拒绝，这两个特点⼜相互恶性循环。因为害怕孤独，想要拥有亲密关系，顺从者往往害怕得罪身边的人，因此即使对方做了了很过分的事情，或是提出了不合理的要求，顺从者也不会拒绝。但这种“滥好人”很容易被⼈忽略，被人欺负，从而导致顺从者更感孤独。<br />
+控制者的特点就是控制欲很强，总想让别人听⾃自⼰的话，根本⽆法接受别⼈的拒绝。根据控制的⽅式，控制者也有两种类型，⼀种是侵略性控制者，⼀种是操纵性控制者。侵略性控制者态度强硬，甚至伴随暴力威胁，所以很容易识别。有的时候操纵性控制者会和前面提到的顺从者成对儿出现。操纵性控制者想控制对方，顺从者习惯听对⽅的话。这两种⼈凑到一起，简直就是一场悲剧。<br />独⽴者往往给人感觉很独立，不需要别人的帮助，什么都可以⾃己搞定。这种独立看起来更像⼀种优点，但是其实不然。独立者拒绝帮助，并不是因为他们真的什么都可以搞定，⽽更像是逞强。<br />
+最后没有反应者的特点是冷漠，他们听不到别⼈的需求，也不太愿意为别⼈提供帮助。没有反应者也分为两种，⼀种是对别⼈的需求非常严厉，⼀种是沉迷在⾃己的欲望和需求里。⽽很多⼈又会根据场景切换⾃自⼰的⻆色，在⽣活中我们往往既是顺从者，⼜是控制者，既是回避者，⼜是没有反应者。</p>
+
+<h3 id="二健康的理界线是什么混乱的心理界线是怎么形成的">二、健康的⼼理界线是什么?混乱的心理界线⼜是怎么形成的?</h3>
+<p>一个⼈的⼼理界线发展最关键的时期是在三岁之前，孩子需要在三岁以前经历亲密期和分离与个体期两个时期，才能形成健康的⼼理界线。亲密期是孩⼦心理界线发展的基础。只有当孩子有了足够的安全感之后，才能⾯对“分离与个体期”所要经历的与⽗母的分离与冲突。如果⼀个孩⼦出生后，能够经历良好的亲密期，⼜能顺利地经历分离与个体期，那么他的⼼理界线就会跟着发展成熟，他也就会成为⼀个更更独⽴的⼈， 能够很好地掌控⾃己的生活。但事实上，并不是所有的人都能这么幸运地顺利利度过这段时期。作者认为，造成⼼理界线混乱的刺激，主要发⽣在婴⼉的第5个月到3岁之间，也就是“分离与个体”期。
+那么是什么原因导致了孩子的⼼理界线问题? 主要给你介绍四种最常⻅的原因。 <br />第一种是⽗母消极对待孩⼦设定界线的⾏为。 第⼆种是⽗母憎恶孩子设定界线的行为。第三种是⽗母本身缺少界线。 第四种是⽗母对孩⼦的过度控制。</p>
+
+<h3 id="三如何重建个成熟健全的理界线">三、如何重建⼀个成熟健全的⼼理界线?</h3>
+<p>⾸先判断出⾃己是哪种类型的界线问题，了解了⾃己的问题之后，我们就可以开始考虑建⽴新的界线了。重建一个健康的⼼理界线，需要三个步骤: <br />一、建⽴⽀持系统，二、操练界线感，三、建立健康的界线。<br />
+第⼀步，建⽴一个⽀持系统。建⽴⽀持系统，也就是找到能帮助你设⽴界线的⼈。以顺从者为例，顺从者⼀再忍受别⼈的虐待，本质上说就是害怕⾃己一设下界线，对⽅就会离开⾃己。但是如果他们有一段稳定的亲密关系，并且能肯定关系的对⽅不会轻易离开⾃己，那么他们的胆⼦就会⼤起来，拒绝对方也就没那么困难了。所以在设立界线之前，一定要找到给⾃己⽀撑的人。<br />
+建⽴完⽀持系统，我们进⼊第二步:操练界线感。这个阶段我们要在上一步建立的⽀持系统里，反复地练习设⽴界线。⽐如，对于控制者来说，操练的重点，是让⾃己能⼼平气和地接受别人的拒绝。⽐如你要去看电影，好朋友却不想陪你去。要是在以前你可能会很⽣气，⽽且会想办法说服他陪你去， 但是此时，你要学会适应被拒绝，⼀个人去就一个⼈去，要学着享受⼀个人的世界。慢慢地，再被别人拒绝，你也能⼼平⽓和地对待了。<br />
+当你对界线不再恐惧害怕后，就可以进⼊第三步了了:建立健康的界线。此时你已经有能力去⾯对真正的⽭盾对象了。对于顺从者来说，当面对别人的侵犯时，你要勇敢地保护⾃己;当对⽅提出不合理需求时，你要勇敢地说不。 当你能够熟练地操作⾃己的界线，并且⾃由地说出“不”和“好”时，那么你的界线也就发展成熟了。</p>
+
+<h3 id="句">⾦句:</h3>
+<ol>
+  <li>⼀个人的⼼理界线发展最关键的时期是在三岁之前，孩子需要在三岁以前经历亲密期和分离与个体期两个时期，才能形成健康的⼼理界线。</li>
+  <li>如果⼀个孩⼦出⽣后，能够经历良好的亲密期，⼜能顺利利地经历分离与个体期，那么他的⼼理界线就会跟着发展成熟，他也就会成为⼀个更独立的人，能够很好地掌控⾃自己的⽣活。</li>
+  <li>为了让孩⼦发展出更健康的界线，⽗母应该要让孩子感受到，⾃己设定的界线是被人尊重的，即使再反对，也不会撤销对他们的爱。</li>
+  <li>界线就像肌肉，越练越强，在安全的关系里，反复练习，慢慢地，你的界线感就会越来越强，承受压力的能⼒也会越来越强，这样，过不了多久，你就能顺利利地将界线意识迁移到其他让⾃己不舒服的关系里了。</li>
+  <li>当你能够熟练地操作⾃己的界线，并且⾃由地说出“不”和“好”时，那么你的界线也就发展成熟了。</li>
+</ol>
+
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2018/07/27/tpl/" data-toggle="tooltip" data-placement="top" title="谈判力">&larr; 上一篇</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2018/08/10/xl/" data-toggle="tooltip" data-placement="top" title="心流">下一篇 &rarr;</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">分类</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#李翔商业内参" title="李翔商业内参" rel="3">
+                                    李翔商业内参
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#通往财富自由之路" title="通往财富自由之路" rel="11">
+                                    通往财富自由之路
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南" title="房产财富精进指南" rel="24">
+                                    房产财富精进指南
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#每周一书" title="每周一书" rel="15">
+                                    每周一书
+                                </a>
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>更多链接</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.matrixwing.com/">矩阵科技</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'false',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://ark.matrixwing.com/about/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">
+                    知识账本内容来源于网络，版权归原作者所有，如有侵权请立即与我们联系。<br>
+                    Copyright &copy; 知识账本 | 矩阵科技 2018
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("../js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '2e8078b8f0e93105e1a9928997e9aada';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

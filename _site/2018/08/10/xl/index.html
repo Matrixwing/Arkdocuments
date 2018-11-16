@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>心流 - 认知升级 | 矩阵科技</title>
+
+    <link rel="canonical" href="http://localhost:4000/2018/08/10/xl/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">认知升级</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">主页</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">关于</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">目录</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/article/gs.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/article/gs.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#每周一书" title="每周一书">每周一书</a>
+                        
+                    </div>
+                    <h1>心流</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 矩阵小助手 on August 10, 2018</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<h1 id="心流">心流</h1>
+
+<h3 id="关于作者">关于作者</h3>
+<p>米哈里·契克森米哈赖是积极心理学奠基人之一， “心流”理论的提出者，被前美国心理学会主席马丁·塞利格曼誉为“世界积极心理学研究领军人物”。他曾担任芝加哥大学心理系主任，现任教于美 国加州克莱蒙特大学。他的研究致力于用心理学知识让人们过得更加幸福，对积极心理学的发展产生了重大影响。著作包括《心流》《发现心流》《创造力》等畅销书。</p>
+<h3 id="关于本书">关于本书</h3>
+<p>《心流》自1990年出版以来，被译成30余种文字，影响了全球千万研究者和读者。这本书系统阐述了什么是心流理论、怎样进入心流状态以及从日常生活、休闲娱乐、工作、人际关系等各方面，如何创造条件进入心流状态。对心理学爱好者和研究者来说，这本书是理解积极心理学等领域不可或缺的理论素材;对大众读者来说，这更是一本提升幸福感和效率的行动指南。</p>
+<h3 id="核心内容">核心内容</h3>
+<p><img src="http://p9n1bl5yn.bkt.clouddn.com/xl.png" alt="Image text" />
+本书的核心观点是:心流是一种专注的忘我状态，在工作和生活中 创造出更多心流体验，将大幅提升你的工作和生活质量。</p>
+<h3 id="一专注让人快乐">一、专注让人快乐</h3>
+<p>目标和情绪共同决定了体验的好坏。比如你下班后决定跟朋友去喝两杯放松一下。但是到了酒馆，你却并没有非常专注地喝酒聊天，而是开始想东想西，你一边因为没有早点回家而内疚，一边又因为出来喝酒多花了钱而感到生气。这时，你的体验不可能好，因为你的目标和情绪不同步，你的心情越发地烦躁，而这种烦躁让你很难集中注意力，内心无法保持平静。<br />而我们在玩游戏时，却非常容易沉浸其中，因为它让你产生了心流。比如，在玩俄罗斯方块的过程中，你的目标非常明确，而你的情绪也跟着起伏，一旦拼出完整的一行得了分，你就很高兴。而这正是心流能够提升体验的心理机制。《心流》这本书告诉我们，只有当你的情绪和目标同步，才能让注意力持续留在当下，不用想结果也不会分心，内心的统一感受就会 成就美好的体验。</p>
+
+<h3 id="二心流产生的条件">二、心流产生的条件</h3>
+<h4 id="1明确的目标">1.明确的目标</h4>
+<p>当你面对一个清晰的目标时，你就会想尽各种办法来达成这个目标。比如，今天你给自己定的目标是，读完20页书，那么你就会琢磨， 读一页要花多长时间?进而你会计划好什么时候读书，安排多少时间来读。清晰的目标指导着你冷静细致地规划每个步骤。</p>
+<h4 id="2即时反馈">2.即时反馈</h4>
+<p>即时反馈指的是:你每做完一步，都会知道自己做得好不好。比如，你在玩俄罗斯方块的时候，每拼成完整的一行，这一行就立马消失，你的分数上涨也是肉眼可见。这让你感到很满足。即时反馈得益于清晰的目标，只有目标足够清楚，你才能在完成目标的每一步时，感觉自己「做到了」。</p>
+<h4 id="3适当的难度">3.适当的难度</h4>
+<p>所谓难度适中，就是你想要完成的这件事不会太简单，需要你钻研一番。你需要时刻思考怎样能够更接近目标，需要花费足够的精力来应对这件事情。难度太低容易无聊，难度太高又容易产生挫败感，这两种体验都不好。</p>
+<h3 id="三把工作当成游戏">三、把工作当成游戏</h3>
+<p>《心流》这本书告诉我们，成人生活中的大部分心流体验，正是出现在工作中，而不是娱乐的时候。如果你能把工作变成游戏，就能从工作中体验到更多乐趣，而关键就在于用“玩”的心态来面对工作。</p>
+<h4 id="1自己给自己定义目标">1.自己给自己定义目标</h4>
+<p>要通过做加法，主动赋予工作更多意义，你会时刻思考着怎样改进 工作，心流就会在这个过程中涌现。
+<br />【案例】<br />
+如果你是前台接待，每天除了接待一些来访客户以外，空闲的时间 你可以多了解公司的发展史，这样在客人等候的时候你就能聊上两 句。这么做不仅能让客人多了解公司情况，还能给他留下员工热 情、忠诚的印象，对公司也会好感倍增。</p>
+<h4 id="2调整工作的难度">2.调整工作的难度</h4>
+<p>你可以把大目标拆成几个自己能控制、能够自我反馈的小目标。每完成一个小目标，你都能不断地得到正反馈，这种成就感可以激励 你继续完成后面的小目标，最终攻下终极boss。
+<br />【案例】<br />
+你下周就要在员工大会上做一个述职报告，听起来很难。但实际上，你可以把它拆解成三个小目标。第一步，花一天时间来确定你的报告内容;第二步，再花一天时间搜集报告所需要的素材;剩下的三天，用来做报告的PPT和模拟演练。</p>
+<h4 id="3改进工作流程">3.改进工作流程</h4>
+<p>仔细留心工作中的每一个步骤，然后问问自己:这个步骤一定必要 吗?如果不能跳过去，那还能不能做得更好?找到省时又高效的方 法。
+<br />【案例】<br />
+医生查理一直为工作中的两件事烦恼。第一，他国际会议频繁，要经常在机场候机;第二，为了跟政府申请经费，他经常要写计划书，虽然不难但非常繁琐。于是他改进了工作流程，利用候机的时间来写计划书，这么做省时又高效。从此他每一次搭乘飞机都变成了一次令人期待的游戏。</p>
+<h3 id="四创造主动式休闲">四、创造主动式休闲</h3>
+<p>所谓主动式休闲，就是那些需要你动动脑子才能享受到乐趣的活动。最关键的是，找到能够让你沉浸其中的爱好。<br />首先，试着给自己多一些机会尝试新东西。接着，每尝试一件新东西之后，记录并回顾你的心理感受，找到那些能够带给你满足感的，让你愿意花很多精力去做的事情。这件事并不像看电视那么简单，它还能满足创造心流的三个条件，清晰的目标、即时反馈和适中的难度。等你找到了它，剩下的就是尽量多地去做这件事，减少其他活动。这样就能在休闲时光里出现更多的心流体验。</p>
+
+<h3 id="金句">金句:</h3>
+<ol>
+  <li>体验跟你是富有还是贫穷，是天才还是平凡人，并没有直接关系，它只跟你如何感受生活有关。</li>
+  <li>你的情绪和目标同步，让注意力能够一直留在当下，不用想结果也不会分心，内心的统一感受成就了美好体验。</li>
+  <li>其实创造心流的条件有三个:明确的目标、即时反馈和适中的难度。只要达到这三点，你的注意力就能一直保持在这件事上，它会像一块磁铁，吸引着你心无旁骛地投入，进入心流的状态。</li>
+  <li>成人生活中的大部分心流体验，正是出现在工作中，而不是娱乐 的时候。</li>
+  <li>看电视这样的休闲属于被动休闲，不能提升你的生命体验，所以 不值得提倡。</li>
+</ol>
+
+
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2018/08/03/gybj/" data-toggle="tooltip" data-placement="top" title="过犹不及">&larr; 上一篇</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2018/08/17/rgzs/" data-toggle="tooltip" data-placement="top" title="人格智商">下一篇 &rarr;</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">分类</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#李翔商业内参" title="李翔商业内参" rel="3">
+                                    李翔商业内参
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#通往财富自由之路" title="通往财富自由之路" rel="11">
+                                    通往财富自由之路
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南" title="房产财富精进指南" rel="24">
+                                    房产财富精进指南
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#每周一书" title="每周一书" rel="15">
+                                    每周一书
+                                </a>
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>更多链接</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.matrixwing.com/">矩阵科技</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'false',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://ark.matrixwing.com/about/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">
+                    知识账本内容来源于网络，版权归原作者所有，如有侵权请立即与我们联系。<br>
+                    Copyright &copy; 知识账本 | 矩阵科技 2018
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("../js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '2e8078b8f0e93105e1a9928997e9aada';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

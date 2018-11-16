@@ -1,0 +1,572 @@
+Searching 155 files for "https://cdn.bootcss.com/"
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_includes/footer.html:
+  127  <!--fastClick.js -->
+  128  <script>
+  129:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  130          var $nav = document.querySelector("nav");
+  131          if($nav) FastClick.attach($nav);
+
+1 match in 1 file
+
+
+Searching 155 files for "https://cdn.bootcss.com/"
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_layouts/keynote.html:
+  151  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  152  <script>
+  153:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  154          anchors.options = {
+  155            visible: 'false',
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_layouts/post.html:
+  120  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  121  <script>
+  122:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  123          anchors.options = {
+  124            visible: 'false',
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/404.html:
+  218  <!--fastClick.js -->
+  219  <script>
+  220:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  221          var $nav = document.querySelector("nav");
+  222          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/index.html:
+  624  <!--fastClick.js -->
+  625  <script>
+  626:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  627          var $nav = document.querySelector("nav");
+  628          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/12/你无法在同一条赛道上超越已领先你的人/index.html:
+  381  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  382  <script>
+  383:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  384          anchors.options = {
+  385            visible: 'false',
+  ...
+  478  <!--fastClick.js -->
+  479  <script>
+  480:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  481          var $nav = document.querySelector("nav");
+  482          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/13/当你在讲创新时-你确切地知道自己在讲什么吗/index.html:
+  384  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  385  <script>
+  386:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  387          anchors.options = {
+  388            visible: 'false',
+  ...
+  481  <!--fastClick.js -->
+  482  <script>
+  483:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  484          var $nav = document.querySelector("nav");
+  485          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/14/现金不再流向新创公司了/index.html:
+  383  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  384  <script>
+  385:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  386          anchors.options = {
+  387            visible: 'false',
+  ...
+  480  <!--fastClick.js -->
+  481  <script>
+  482:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  483          var $nav = document.querySelector("nav");
+  484          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/29/lxl-0/index.html:
+  273  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  274  <script>
+  275:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  276          anchors.options = {
+  277            visible: 'false',
+  ...
+  370  <!--fastClick.js -->
+  371  <script>
+  372:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  373          var $nav = document.querySelector("nav");
+  374          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/29/lxl-1/index.html:
+  347  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  348  <script>
+  349:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  350          anchors.options = {
+  351            visible: 'false',
+  ...
+  444  <!--fastClick.js -->
+  445  <script>
+  446:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  447          var $nav = document.querySelector("nav");
+  448          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/29/lxl-10/index.html:
+  340  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  341  <script>
+  342:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  343          anchors.options = {
+  344            visible: 'false',
+  ...
+  437  <!--fastClick.js -->
+  438  <script>
+  439:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  440          var $nav = document.querySelector("nav");
+  441          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/29/lxl-2/index.html:
+  315  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  316  <script>
+  317:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  318          anchors.options = {
+  319            visible: 'false',
+  ...
+  412  <!--fastClick.js -->
+  413  <script>
+  414:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  415          var $nav = document.querySelector("nav");
+  416          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/29/lxl-3/index.html:
+  302  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  303  <script>
+  304:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  305          anchors.options = {
+  306            visible: 'false',
+  ...
+  399  <!--fastClick.js -->
+  400  <script>
+  401:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  402          var $nav = document.querySelector("nav");
+  403          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/29/lxl-4/index.html:
+  368  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  369  <script>
+  370:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  371          anchors.options = {
+  372            visible: 'false',
+  ...
+  465  <!--fastClick.js -->
+  466  <script>
+  467:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  468          var $nav = document.querySelector("nav");
+  469          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/29/lxl-5/index.html:
+  376  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  377  <script>
+  378:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  379          anchors.options = {
+  380            visible: 'false',
+  ...
+  473  <!--fastClick.js -->
+  474  <script>
+  475:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  476          var $nav = document.querySelector("nav");
+  477          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/29/lxl-6/index.html:
+  358  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  359  <script>
+  360:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  361          anchors.options = {
+  362            visible: 'false',
+  ...
+  455  <!--fastClick.js -->
+  456  <script>
+  457:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  458          var $nav = document.querySelector("nav");
+  459          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/29/lxl-7/index.html:
+  298  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  299  <script>
+  300:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  301          anchors.options = {
+  302            visible: 'false',
+  ...
+  395  <!--fastClick.js -->
+  396  <script>
+  397:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  398          var $nav = document.querySelector("nav");
+  399          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/29/lxl-8/index.html:
+  351  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  352  <script>
+  353:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  354          anchors.options = {
+  355            visible: 'false',
+  ...
+  448  <!--fastClick.js -->
+  449  <script>
+  450:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  451          var $nav = document.querySelector("nav");
+  452          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/29/lxl-9/index.html:
+  309  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  310  <script>
+  311:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  312          anchors.options = {
+  313            visible: 'false',
+  ...
+  406  <!--fastClick.js -->
+  407  <script>
+  408:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  409          var $nav = document.querySelector("nav");
+  410          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/30/ocx1/index.html:
+  307  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  308  <script>
+  309:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  310          anchors.options = {
+  311            visible: 'false',
+  ...
+  404  <!--fastClick.js -->
+  405  <script>
+  406:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  407          var $nav = document.querySelector("nav");
+  408          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/30/ocx2/index.html:
+  363  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  364  <script>
+  365:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  366          anchors.options = {
+  367            visible: 'false',
+  ...
+  460  <!--fastClick.js -->
+  461  <script>
+  462:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  463          var $nav = document.querySelector("nav");
+  464          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/30/ocx3/index.html:
+  328  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  329  <script>
+  330:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  331          anchors.options = {
+  332            visible: 'false',
+  ...
+  425  <!--fastClick.js -->
+  426  <script>
+  427:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  428          var $nav = document.querySelector("nav");
+  429          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/30/ocx4/index.html:
+  320  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  321  <script>
+  322:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  323          anchors.options = {
+  324            visible: 'false',
+  ...
+  417  <!--fastClick.js -->
+  418  <script>
+  419:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  420          var $nav = document.querySelector("nav");
+  421          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/30/ocx5/index.html:
+  366  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  367  <script>
+  368:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  369          anchors.options = {
+  370            visible: 'false',
+  ...
+  463  <!--fastClick.js -->
+  464  <script>
+  465:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  466          var $nav = document.querySelector("nav");
+  467          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/30/ocx6/index.html:
+  364  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  365  <script>
+  366:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  367          anchors.options = {
+  368            visible: 'false',
+  ...
+  461  <!--fastClick.js -->
+  462  <script>
+  463:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  464          var $nav = document.querySelector("nav");
+  465          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/30/ocx7/index.html:
+  397  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  398  <script>
+  399:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  400          anchors.options = {
+  401            visible: 'false',
+  ...
+  494  <!--fastClick.js -->
+  495  <script>
+  496:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  497          var $nav = document.querySelector("nav");
+  498          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/30/ocx8/index.html:
+  394  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  395  <script>
+  396:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  397          anchors.options = {
+  398            visible: 'false',
+  ...
+  491  <!--fastClick.js -->
+  492  <script>
+  493:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  494          var $nav = document.querySelector("nav");
+  495          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/04/30/ocx9/index.html:
+  339  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  340  <script>
+  341:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  342          anchors.options = {
+  343            visible: 'false',
+  ...
+  436  <!--fastClick.js -->
+  437  <script>
+  438:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  439          var $nav = document.querySelector("nav");
+  440          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/05/01/ocx10/index.html:
+  415  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  416  <script>
+  417:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  418          anchors.options = {
+  419            visible: 'false',
+  ...
+  512  <!--fastClick.js -->
+  513  <script>
+  514:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  515          var $nav = document.querySelector("nav");
+  516          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/05/01/ocx11/index.html:
+  779  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  780  <script>
+  781:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  782          anchors.options = {
+  783            visible: 'false',
+  ...
+  876  <!--fastClick.js -->
+  877  <script>
+  878:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  879          var $nav = document.querySelector("nav");
+  880          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/05/01/ocx12/index.html:
+  351  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  352  <script>
+  353:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  354          anchors.options = {
+  355            visible: 'false',
+  ...
+  448  <!--fastClick.js -->
+  449  <script>
+  450:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  451          var $nav = document.querySelector("nav");
+  452          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/05/01/ocx13/index.html:
+  488  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  489  <script>
+  490:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  491          anchors.options = {
+  492            visible: 'false',
+  ...
+  585  <!--fastClick.js -->
+  586  <script>
+  587:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  588          var $nav = document.querySelector("nav");
+  589          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/05/01/ocx14/index.html:
+  444  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  445  <script>
+  446:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  447          anchors.options = {
+  448            visible: 'false',
+  ...
+  541  <!--fastClick.js -->
+  542  <script>
+  543:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  544          var $nav = document.querySelector("nav");
+  545          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/05/01/ocx15/index.html:
+  369  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  370  <script>
+  371:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  372          anchors.options = {
+  373            visible: 'false',
+  ...
+  466  <!--fastClick.js -->
+  467  <script>
+  468:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  469          var $nav = document.querySelector("nav");
+  470          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/05/01/ocx16/index.html:
+  345  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  346  <script>
+  347:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  348          anchors.options = {
+  349            visible: 'false',
+  ...
+  442  <!--fastClick.js -->
+  443  <script>
+  444:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  445          var $nav = document.querySelector("nav");
+  446          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/05/22/ocx17/index.html:
+  383  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  384  <script>
+  385:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  386          anchors.options = {
+  387            visible: 'false',
+  ...
+  480  <!--fastClick.js -->
+  481  <script>
+  482:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  483          var $nav = document.querySelector("nav");
+  484          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/05/23/ocx18/index.html:
+  977  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  978  <script>
+  979:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  980          anchors.options = {
+  981            visible: 'false',
+  ...
+ 1074  <!--fastClick.js -->
+ 1075  <script>
+ 1076:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+ 1077          var $nav = document.querySelector("nav");
+ 1078          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/06/01/nz/index.html:
+  303  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  304  <script>
+  305:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  306          anchors.options = {
+  307            visible: 'false',
+  ...
+  400  <!--fastClick.js -->
+  401  <script>
+  402:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  403          var $nav = document.querySelector("nav");
+  404          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/06/08/qxskdys/index.html:
+  315  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  316  <script>
+  317:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  318          anchors.options = {
+  319            visible: 'false',
+  ...
+  412  <!--fastClick.js -->
+  413  <script>
+  414:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  415          var $nav = document.querySelector("nav");
+  416          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/06/17/mzxddys/index.html:
+  306  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  307  <script>
+  308:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  309          anchors.options = {
+  310            visible: 'false',
+  ...
+  403  <!--fastClick.js -->
+  404  <script>
+  405:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  406          var $nav = document.querySelector("nav");
+  407          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/06/22/xhtw/index.html:
+  342  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  343  <script>
+  344:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  345          anchors.options = {
+  346            visible: 'false',
+  ...
+  439  <!--fastClick.js -->
+  440  <script>
+  441:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  442          var $nav = document.querySelector("nav");
+  443          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/06/22/zysqs3d/index.html:
+  326  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  327  <script>
+  328:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  329          anchors.options = {
+  330            visible: 'false',
+  ...
+  423  <!--fastClick.js -->
+  424  <script>
+  425:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  426          var $nav = document.querySelector("nav");
+  427          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/2018/07/13/hxzsw/index.html:
+  279  <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+  280  <script>
+  281:     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+  282          anchors.options = {
+  283            visible: 'false',
+  ...
+  376  <!--fastClick.js -->
+  377  <script>
+  378:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  379          var $nav = document.querySelector("nav");
+  380          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/about/index.html:
+  369  <!--fastClick.js -->
+  370  <script>
+  371:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  372          var $nav = document.querySelector("nav");
+  373          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/page2/index.html:
+  667  <!--fastClick.js -->
+  668  <script>
+  669:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  670          var $nav = document.querySelector("nav");
+  671          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/page3/index.html:
+  627  <!--fastClick.js -->
+  628  <script>
+  629:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  630          var $nav = document.querySelector("nav");
+  631          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/page4/index.html:
+  568  <!--fastClick.js -->
+  569  <script>
+  570:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  571          var $nav = document.querySelector("nav");
+  572          if($nav) FastClick.attach($nav);
+
+/Users/huali/Documents/Work/Git/Arkdocuments/_site/tags/index.html:
+  988  <!--fastClick.js -->
+  989  <script>
+  990:     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+  991          var $nav = document.querySelector("nav");
+  992          if($nav) FastClick.attach($nav);
+
+85 matches across 47 files
