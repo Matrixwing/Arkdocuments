@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>购房基础理论(上)(001) - 认知升级 | 矩阵科技</title>
+
+    <link rel="canonical" href="http://localhost:4000/2018/04/30/gds001/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">认知升级</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">主页</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">关于</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">目录</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/article/fdc.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/article/fdc.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#房产财富精进指南/共读社" title="房产财富精进指南/共读社">房产财富精进指南/共读社</a>
+                        
+                    </div>
+                    <h1>购房基础理论(上)(001)</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 欧成效 on April 30, 2018</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<h2 id="购房基础理论上阿懒共读社001">购房基础理论(上)[阿懒共读社001]</h2>
+<h4 id="来自付费社区房产财富精进指南-朱业胜">来自付费社区《房产财富精进指南》 朱业胜</h4>
+
+<hr />
+
+<p>大家好，我是阿懒，从今天开始接下来的六个月里，我将带领大家一起共同解读欧神(yevon_ou)的文章，让零基础的朋友也可以跟随我的导读、解读和问答，了解与购房相关的高深理论与技巧。</p>
+
+<p>今天我们一起来阅读的这篇是《#001购房基础理论(上篇)》，主要讲述购房基础理论由体、用、术三部分构成，提到的案例有SAP数据库系统。</p>
+
+<h6 id="sap">SAP</h6>
+
+<p>17年前，公司里要上SAP。一个生产部的女士，工作极其认真严谨，笔记记得密密麻麻。</p>
+
+<p>对于200多个表格，这里是输入地址，那里是输入日期，下拉框是查库存列表。她觉得这个系统很复杂很复杂，有200多个表格要学呢。</p>
+
+<p>但是，SAP系统其实很简单，就是一个数据库查询系统。</p>
+
+<p>无论你有多少个Form，多少个查询表单。无非就是数据库的输入/输出工作。</p>
+
+<p>今天你下一个采购订单，是把货物输入到了系统。</p>
+
+<p>明天你填一个生产表格，是把货物A转换成了货物B。</p>
+
+<p>后天你填一个销售表单，就是把货物B卖了。</p>
+
+<p>SAP仅在生产规划环节有一些计算，但也并不脱离传统的MRP系统。</p>
+
+<p>但SAP为什么在某些人眼里这么难呢。因为她们的思考方法不同。</p>
+
+<p>在某些人眼里，SAP是200个不同的Form，每一个表格都要单独背诵和记忆。</p>
+
+<p>可是如果你懂得SAP的大框架，整件事就十分清晰。</p>
+
+<p><strong>【阿懒解读：欧神用SAP数据库系统来举例，非常生动、形象、具体的说明了如何深入掌握一件事情。即从整体上了解事物的大框架，然后关注细节；而不是从细节入手，这样只会从此陷入到细节之中，再也看不清整个事物。这也是欧神的方法论。】</strong></p>
+
+<p>以上，和买房有什么关系呢。</p>
+
+<p>其实我们要说的是，基础理论的重要性。</p>
+
+<p>就象那个SAP画了二百个表格的女孩子。又或者深陷题海战术的高考学子们。</p>
+
+<p>他们看似很努力，可成绩始终上不去。</p>
+
+<p>因为他们只是忙碌于很表层的东西。从没有想背后潜在的原理。其实老师出题来来回回就那几个套路。真正的学霸，从来不读书。</p>
+
+<p><strong>【阿懒解读：上面这些，全部讲的是“体”。“真正的学霸从来不读书”，首先欧神是学霸，其次学霸思考问题是先弄懂底层原理，而不是从细节入手。】</strong></p>
+
+<h6 id="体用术">体，用，术</h6>
+
+<p>基础的理论很重要。从一些更基本的规则，可以推出上一层的规则。这样不仅更好记，更快捷，而且可以算出别人看不见的东西。</p>
+
+<p>但是，事情也有其反面。若真如此，今天最富有的人，应该是“粒子物理”科学家，或者数学系研究“数论”的老学究们。因为他们，才是走在整个人类科学最前沿，最底层的学问。</p>
+
+<p>可是事实并非如此。真正的科学家，往往很穷。</p>
+
+<p><strong>【阿懒解读：既然基础理论如此重要，并可以由此推导出上一层的规则，那么为什么真正的科学家却非常穷呢？这且不是说明欧神你前面讲的都是错的？不急，以下慢慢道来，讲清楚原因。】</strong></p>
+
+<p>问题在于“体，用，术”。 最基础的科学，好比人类文明的大树。根基都在这里。这是体。 在基础科学之上，“用”指的是应用科学。你精通了化学，这并不能帮你赚钱。化学要转化成应用。研究出一种新型去屑洗发水，牙膏，洗衣液，奶粉配方之类。 在大科学家眼里，这些应用科学是小儿科。可在“企业”里混的人，其收入往往是大科学家的两倍三倍。 为什么？因为“应用科学”离消费者更近，离钱更近。</p>
+
+<p><strong>【阿懒解读：真正赚大钱的不是精通基础理论的人，而是精通离产品最近的人，离消费者最近的人，离直接转化为钱最近的人。】</strong></p>
+
+<p>术指的是完全末端的，不属于理论体系的，分散的，短期的似是而非的知识。</p>
+
+<p>好比门口王婆卖的烧饼比较甜。</p>
+
+<p>地铁交通卡可以互换以节省成本等等。</p>
+
+<p>思考题：
+生活、工作、学习、投资、创业，等等中，你遇到过类似本篇讲的，对SAP的两种理解的角度和维度吗？</p>
+
+
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2018/04/30/ocx2/" data-toggle="tooltip" data-placement="top" title="赚钱的逻辑（二）">&larr; 上一篇</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2018/04/30/gds002/" data-toggle="tooltip" data-placement="top" title="购房基础理论(下)(002)">下一篇 &rarr;</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">分类</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#李翔商业内参" title="李翔商业内参" rel="3">
+                                    李翔商业内参
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#通往财富自由之路" title="通往财富自由之路" rel="11">
+                                    通往财富自由之路
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南" title="房产财富精进指南" rel="29">
+                                    房产财富精进指南
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南/共读社" title="房产财富精进指南/共读社" rel="15">
+                                    房产财富精进指南/共读社
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#每周一书" title="每周一书" rel="15">
+                                    每周一书
+                                </a>
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>更多链接</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.matrixwing.com/">矩阵科技</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'false',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://ark.matrixwing.com/about/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">
+                    知识账本内容来源于网络，版权归原作者所有，如有侵权请立即与我们联系。<br>
+                    Copyright &copy; 知识账本 | 矩阵科技 2018
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("../js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '2e8078b8f0e93105e1a9928997e9aada';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

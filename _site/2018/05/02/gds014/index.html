@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>CEO盘不升值(014) - 认知升级 | 矩阵科技</title>
+
+    <link rel="canonical" href="http://localhost:4000/2018/05/02/gds014/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">认知升级</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">主页</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">关于</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">目录</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/article/fdc.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/article/fdc.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#房产财富精进指南/共读社" title="房产财富精进指南/共读社">房产财富精进指南/共读社</a>
+                        
+                    </div>
+                    <h1>CEO盘不升值(014)</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 且行 on May 2, 2018</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<p><strong>【导读：本文主要解释什么是CEO盘，以及什么样的人会买CEO盘。】</strong></p>
+
+<p>所谓的CEO盘，就是跪着求你买房子。</p>
+
+<h2 id="一贵妇">一）贵妇</h2>
+
+<p>当一套房子，各项附加值做到了极致，它就成了CEO盘。</p>
+
+<p>CEO盘，主要是跪着求你买的意思。</p>
+
+<p>在我的圈子里，我认识很多名媛阔太。她们许多都是官太太，年龄在45~55岁之间。珠光宝气，闲得发慌。</p>
+
+<p>官太太有几个特点，其主要是：</p>
+
+<p>她们都很有钱，她们都很有闲，她们都超级骄傲。</p>
+
+<p>从某些角度而言，（中国）官太太可能是这个星球上最幸福的人群。因为她们充分满足了几个需求：数之不尽的金钱，数之不尽的休闲，唯一的工作是玩。</p>
+
+<p>官太太并不一定是精英。这是很重要的一个大前提，影响到以后的结论。</p>
+
+<p>许多阔太，她们只是运气好。或许当年生产插队的时候，搭班了同队的一个小年青。结果人家就当上了部长，厅长，局长。或者是几十亿大公司的董事长。</p>
+
+<p>一个巨有钱，巨有闲，巨有自信心，巨快乐无比的群体。</p>
+
+<p>这构成了“名媛阔太”的主体。然后深刻地影响到了投资圈。</p>
+
+<p>名媛阔太是一个超有钱的团体，而且她们的自我感觉非常非常非常地好。</p>
+
+<p>现象导致一个结果，阔太手里通常都有一笔钱，阔太们想要“投资”。</p>
+
+<p>金融圈经常有些瞠目结舌的事情发生。譬如某人饭桌上听推荐，一下子就买了1000W人民币的贵金属基金。</p>
+
+<p>汇丰银行高级私人理财部门，金砖基金一笔卖个八佰万一千万。几乎整个私营理财业，就靠贵妇们撑起来了。</p>
+
+<p>在房地产市场，同样有贵妇的故事。</p>
+
+<h2 id="二ceo盘">二）CEO盘</h2>
+
+<p>贵妇们的钱实在太多了，在买了鞋子，包包，珠宝，基金，开美容院，私募股权融资之后，还是没把她们的资金消耗完。</p>
+
+<p>和所有人一样，贵妇也想买房子。</p>
+
+<p>贵妇买房子，一方面是出于对房产本身的喜爱。几乎每一个女人都喜欢房子。</p>
+
+<p>另一方面，房地产大火，身为女主人，为家里理财分忧，也是应有之意。何况还能赚钱呢。</p>
+
+<p>贵妇买房子，有几个要求。</p>
+
+<p>首先，贵妇绝对不排队。几百号人冲击售楼处，排三天三夜队伍抢个号筹，这一类的事情，贵妇是绝对不会参与的、想也不用想。</p>
+
+<p>其次，贵妇不惹麻烦。凡是有产权纠纷手尾药单清场雷锋，凡是和“药单”概念有关的。贵妇碰也不碰。事实上，贵妇几乎不买二手盘。</p>
+
+<p>第三，贵妇是视觉动物。微信上有一篇<a href="http://mp.weixin.qq.com/s?__biz=MzA4NjQ5NjMxMw==&amp;mid=206040763&amp;idx=1&amp;sn=1b23b7e42481b8d1994b0c267c53ab0a&amp;scene=1&amp;key=c468684b929d2be20b6208cf15fdb71395ae25bdb01f481e82c38b262bf7a77a6ac17f81c6b478bdab570749e6656ac2&amp;ascene=1&amp;uin=NDkyMjg2OTM1&amp;devicetype=webwx&amp;version=70000001&amp;pass_ticket=Fwo3VPNkGuO%2BUOWvlq6BQ0x8hOqXnUTUfOxU5P7d3OwunpQn3dLap%2FLPe0H%2FqWyF">《男人和女人买房的区别》</a>，其中有一张图是非常正确的。</p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/3836857-06ff6237151a355d?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="yinsu" /></p>
+
+<p>女人买房，基本只看装修。完全完全彻底不考虑性价比，反正是男人付钱！</p>
+
+<p><strong>【解读：这张图，是一个正常人的反应；不过，如果加入了《房产财富精进指南》社区，就会不一样啦！】</strong></p>
+
+<p>对于女人买房，关键是样板房漂亮。哪怕所有的样板房都没有门，她也不会察觉到。</p>
+
+<p>第四，贵妇买房，是买着玩的。</p>
+
+<p>对于穷人屌丝，一套房就是一套命。需要几代人拼搏所有的积蓄凑起来生死纠关的大事。对于房产专家来说，买房是工作。需要谨慎严肃认真避免所有赘肉溢价。</p>
+
+<p><strong>【解读：买房就是创业。】</strong></p>
+
+<p>可是对于贵妇来说，买房是因为今天下午做头发的师傅没有来。所以就顺路去隔壁售楼处看看。反正她对自己的投资眼光自信得紧。</p>
+
+<p>这些因素拼凑起来是什么呢？是CEO盘。</p>
+
+<h2 id="三ceo盘的含义">三）CEO盘的含义</h2>
+
+<p>CEO盘的特征是什么呢。譬如附近普遍的地段均价是30000/m，你卖40000/m，那不叫CEO盘。只能叫高品质溢价盘。</p>
+
+<p>CEO盘，你要卖80000。</p>
+
+<p>在八万的基础上，普通人基本不会关心了，当笑话看了。那你售楼处也不会拥挤。大可以高档香薰泡两杯金骏眉，请贵妇慢慢赏鉴。</p>
+
+<p>当一个楼盘达到了“市场价二倍”以后，他最紧需的是IB格。性价比可以很低，但是B格一定要高。</p>
+
+<p>这里我们再贴一个链接给各位：<a href="http://mp.weixin.qq.com/s?__biz=MjM5OTI2MjM4Mw==&amp;mid=213036673&amp;idx=2&amp;sn=76eeca19d319e7073d484a5122bb87f2&amp;scene=1&amp;key=c468684b929d2be2064df4d62a5ac78b6e2bdbf96d688e056e153665d2275d6178a42e7f7442b50e11d58167a0dbcd42&amp;ascene=1&amp;uin=NDkyMjg2OTM1&amp;devicetype=webwx&amp;version=70000001&amp;pass_ticket=Fwo3VPNkGuO%2BUOWvlq6BQ0x8hOqXnUTUfOxU5P7d3OwunpQn3dLap%2FLPe0H%2FqWyF">《万科发布陆家嘴江景房最新顶配精装，好多新鲜玩意儿，你绝对没见过……》</a></p>
+
+<p>如图中他所说的所有小玩意，加在一起花不了2000元/㎡，可对女性购买者来说就是毒药。</p>
+
+<p>当一个楼盘达到了别人200~250%价格以后，它的销售就很长滞很困难。至少它不能在Mass Market，不能在大众市场上卖。因为根本卖不动。</p>
+
+<p>这个时候，这些“豪宅”就要有针对性的，专门针对这些“细分高端市场”推送广告。</p>
+
+<p>譬如说，在一些贵妇才看的杂志，在Club，或者和Vertu手机售后交换名单。</p>
+
+<p>当贵妇接到开盘的消息，只要你感兴趣，就会有西装领带的一男一女销售精英，跪着捧着楼书，送到您家里去。</p>
+
+<p>你没看错，是送到你家里去。是跪着求你买楼。</p>
+
+<p>贵妇买楼不用排队。你只要签个字就可以了。也不用去交易中心受热气蒸臭气熏，公证委托即可。所有的手续我们全都帮你办完，要多贴心有多贴心，要多方便有多方便。</p>
+
+<p>你想参观我们楼盘，奔驰车全程接送。不买不要紧，请下月来参加佘山高尔夫的酒会。1997年香港何文田看楼时，钟镇涛是坐着直升机去浏览的。然后二个月后楼市就崩溃了。</p>
+
+<p>有时候我不无讽刺地想着，贵妇们如果知道仅仅她们的电话号码，就能卖5000元/个。不知会怎么想。</p>
+
+<p><strong>【解读：针对CEO盘的精准营销。】</strong></p>
+
+<h2 id="四ceo盘的升值">四）CEO盘的升值</h2>
+
+<p>CEO盘怎么升值呢。CEO盘就是把“各项附加值”全都做到极致的。把用户体验做到极致的，把品质规格做到极致的。同时也把价格做到极致的。</p>
+
+<p>CEO盘不升值。</p>
+
+<p><strong>【解读：一开始，CEO盘就把所有附加值都做到极致，导致价格一开始就到了极致、非常高，所以，未来很难升值。】</strong></p>
+
+<p>贵妇们啊，你们要知道。在整个生态链上，你们是处于最末一环的。</p>
+
+<p>我们这个世界，黑暗血腥宛如永夜森林，而不是纯洁的白雪公主小白兔。</p>
+
+<p>厮杀与争夺，阴谋和轨迹，才是我们这个社会的主旋律。</p>
+
+<p>买房是一场战争，是各方利益的角斗场。政府费尽心机将土地卖最高价，开发商费尽心机，榨尽最后一滴黑油。</p>
+
+<p>屌丝们则上演着打砸售楼处的闹剧，小编一手构造了CCAV2的假新闻。</p>
+
+<p>这是战场，是屠戮场。不是童话王国呵。</p>
+
+<p><strong>【解读：政府是地产商，把土地卖出高价赚钱；万科恒大是房产商，把房子卖出高价赚钱；买房者也想办法来赚钱。所以，欧神说这是一个战场。】</strong></p>
+
+<p>每一个人都在交棒，在玩击鼓传花。生产者交给批发者，批发着交给零售者，零售者卖给消费者，消费者卖给收藏者。</p>
+
+<p>好比你脖子里戴的珠宝，到你的手中，这就是最后一棒。再也找不出任何出价更高的其他买家了。</p>
+
+<p><strong>【解读：注意上面的链条，“收藏者”是最后一个环节，再也没有后续接盘侠。】</strong></p>
+
+<p>贵妇们做什么投资，无论做什么投资，你都是最后一棒。</p>
+
+<p>股票基金到了你手里，就是最后一棒。贵金属、金银币到你手里，是最后一棒。</p>
+
+<p>当贵妇们仪态优雅地翻阅着订购杂志时，你的智商还不如一只猫。</p>
+
+<p>珠宝首饰，艺术品收藏，你是最后一棒。你是最后最高一个出价，不会再有下一个买家。</p>
+
+<p>CEO盘到你手里，也是最后一棒。</p>
+
+<p>阿姨啊，你知不知道店家为了找到你，为了将商品卖给你，他们花费了多大的力气。</p>
+
+<p>你手里的货色，至少1/3是广告费。</p>
+
+<h2 id="思考题">思考题：</h2>
+
+<p>这么难卖的CEO盘都可以卖出去，简直不可思议。你在生活还看到哪些不可思议的东西在卖的？</p>
+
+
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2018/05/02/gds013/" data-toggle="tooltip" data-placement="top" title="谈谈“砖本位”（013）">&larr; 上一篇</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2018/05/03/gds015/" data-toggle="tooltip" data-placement="top" title="温州买房团为什么没赚钱(015)">下一篇 &rarr;</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">分类</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#李翔商业内参" title="李翔商业内参" rel="3">
+                                    李翔商业内参
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#通往财富自由之路" title="通往财富自由之路" rel="11">
+                                    通往财富自由之路
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南" title="房产财富精进指南" rel="29">
+                                    房产财富精进指南
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南/共读社" title="房产财富精进指南/共读社" rel="15">
+                                    房产财富精进指南/共读社
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#每周一书" title="每周一书" rel="15">
+                                    每周一书
+                                </a>
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>更多链接</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.matrixwing.com/">矩阵科技</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'false',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://ark.matrixwing.com/about/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">
+                    知识账本内容来源于网络，版权归原作者所有，如有侵权请立即与我们联系。<br>
+                    Copyright &copy; 知识账本 | 矩阵科技 2018
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("../js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '2e8078b8f0e93105e1a9928997e9aada';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
