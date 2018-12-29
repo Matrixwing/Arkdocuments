@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>认知升级 | 矩阵科技</title>
+
+    <link rel="canonical" href="http://localhost:4000/page9/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">认知升级</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">主页</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">关于</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">目录</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Page Header -->
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>认知升级</h1>
+                    <!--<hr class="small">-->
+                    <span class="subheading">阅读本身没有意义，阅读之后的思考，思考之后的选择，选择之后的持续行动才有价值！</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+        
+
+<!-- USE SIDEBAR -->
+    <!-- Post Container -->
+    		<div class="
+                col-lg-8 col-lg-offset-1
+                col-md-8 col-md-offset-1
+                col-sm-12
+                col-xs-12
+                post-container
+            ">
+    			
+<div class="post-preview">
+    <a href="/2018/04/13/%E5%BD%93%E4%BD%A0%E5%9C%A8%E8%AE%B2%E5%88%9B%E6%96%B0%E6%97%B6-%E4%BD%A0%E7%A1%AE%E5%88%87%E5%9C%B0%E7%9F%A5%E9%81%93%E8%87%AA%E5%B7%B1%E5%9C%A8%E8%AE%B2%E4%BB%80%E4%B9%88%E5%90%97/">
+        <h2 class="post-title">
+            当你在讲创新时，你确切地知道自己在讲什么吗
+        </h2>
+        
+        <h3 class="post-subtitle">
+            李翔商业内参
+        </h3>
+        
+        <div class="post-content-preview">
+            当你在讲创新时，你确切地知道自己在讲什么吗？
+李翔商业
+
+
+
+1．当你在讲“创新“时，你知道自己在讲什么吗？
+可好好学习 可自省
+
+作家斯科特．伯昆说，人们总是在讲创新，以至于混淆了创新这个词语和这个词语真正要表达的方法与事物。通常的情况是，当人们想表达某种还没有解决方案的情况时，就会使用创新这个词语。他的方法是:
+
+“每当我被邀请到某地去做以创新为主题的演讲或者去到某个组织，在会议中如果听...
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by 李翔 on April 13, 2018
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2018/04/12/%E4%BD%A0%E6%97%A0%E6%B3%95%E5%9C%A8%E5%90%8C%E4%B8%80%E6%9D%A1%E8%B5%9B%E9%81%93%E4%B8%8A%E8%B6%85%E8%B6%8A%E5%B7%B2%E9%A2%86%E5%85%88%E4%BD%A0%E7%9A%84%E4%BA%BA/">
+        <h2 class="post-title">
+            你无法在同一条赛道上超越已经领先你的人
+        </h2>
+        
+        <h3 class="post-subtitle">
+            李翔商业内参
+        </h3>
+        
+        <div class="post-content-preview">
+            你无法在同一条赛道上超越已经领先你的人
+李翔
+
+
+1．“组织畏惧”导致诺基亚崩塌
+
+INSEAD商学院战略学教hQuyHuy和芬兰Aa№大学占戈略管理学助理教授TimoVu丽在访问了76位诺基亚中高层及外部专家后，认为造成诺基亚衰落的原因，并不在于自身的技术落后或者竞争对手苹果过于强大。问题出在了公司文化上，他们称之为“组织畏惧”。造成“组织畏惧”的两个原因，一是公司高管以可怕著称，一些董事...
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by 李翔 on April 12, 2018
+    </p>
+</div>
+<hr>
+
+
+<!-- Pager -->
+
+<ul class="pager">
+    
+    <li class="previous">
+        <a href="/page8">&larr; 上一页</a>
+    </li>
+    
+    
+</ul>
+
+
+    		</div>
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-3 col-lg-offset-0
+                col-md-3 col-md-offset-0
+                col-sm-12
+                col-xs-12
+                sidebar-container
+            ">
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">分类</a></h5>
+                    <div class="tags">
+                        
+                            
+                                <a href="/tags/#李翔商业内参" title="李翔商业内参" rel="3">
+                                    李翔商业内参
+                                </a>
+                            
+                        
+                            
+                                <a href="/tags/#通往财富自由之路" title="通往财富自由之路" rel="11">
+                                    通往财富自由之路
+                                </a>
+                            
+                        
+                            
+                                <a href="/tags/#房产财富精进指南" title="房产财富精进指南" rel="31">
+                                    房产财富精进指南
+                                </a>
+                            
+                        
+                            
+                                <a href="/tags/#房产财富精进指南/共读社" title="房产财富精进指南/共读社" rel="22">
+                                    房产财富精进指南/共读社
+                                </a>
+                            
+                        
+                            
+                                <a href="/tags/#每周一书" title="每周一书" rel="15">
+                                    每周一书
+                                </a>
+                            
+                        
+                    </div>
+                </section>
+                
+
+                <!-- Short About -->
+                <section class="visible-md visible-lg">
+                    <hr><h5><a href="/about/">关于我们</a></h5>
+                    <div class="short-about">
+                        
+                            <img src="https://raw.githubusercontent.com/Matrixwing/Arkdocuments/gh-pages/img/avatar.png" />
+                        
+                        
+                            <p>做有价值的事,在我们的方舟上没有用户只有伙伴</p>
+                        
+                        <!-- SNS Link -->
+                        <ul class="list-inline">
+                            
+                            
+                            
+                            
+                            
+                            
+                            <!-- <li>
+                                <a target="_blank" href="about">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </section>
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>更多链接</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.matrixwing.com/">矩阵科技</a></li>
+                    
+                </ul>
+                
+    		</div>
+        
+	</div>
+</div>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://ark.matrixwing.com/about/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">
+                    知识账本内容来源于网络，版权归原作者所有，如有侵权请立即与我们联系。<br>
+                    Copyright &copy; 知识账本 | 矩阵科技 2018
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("../js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '2e8078b8f0e93105e1a9928997e9aada';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
