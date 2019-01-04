@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>装修基础知识概念 - 认知升级 | 矩阵科技</title>
+
+    <link rel="canonical" href="http://localhost:4000/2019/01/04/gds030/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">认知升级</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">主页</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">关于</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">目录</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/article/fdc.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/article/fdc.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#房产财富精进指南/共读社" title="房产财富精进指南/共读社">房产财富精进指南/共读社</a>
+                        
+                    </div>
+                    <h1>装修基础知识概念</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 且行 on January 4, 2019</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<p><strong>【导读：本篇讲老破小投资类装修初步概念。】</strong></p>
+
+<p>这篇本来叫做《凤变冰基础知识》，讲的是老破小如何包装，如何装修，最后做出冰冰一样的效果。</p>
+
+<p><strong>【解读：凤变冰，就是凤姐变冰冰，通过装修，比丑陋不堪的凤姐变成范冰冰一样的美女。】</strong></p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/3836857-f382846838bc0415.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="凤变冰" /></p>
+
+<p>只不过装修这一行，我也并不能算顶级高手。最多只能算二流。</p>
+
+<p>而且我疏懒已久，已经有一段时间没跑装修了。很多事有点遗忘。</p>
+
+<p>所以简单地谈一点框架原则。</p>
+
+<h2 id="一基础知识">一）基础知识</h2>
+
+<p>装修分二种，小于40平米的装修，和大于250平米的装修。</p>
+
+<p>这二种装修天差地远，截然不同。几乎可以说是完全不同的工作。</p>
+
+<p>其流程，经验，材料，工期，各大概念完全不同。甚至都没有了交流的必要。</p>
+
+<p>在本文中，我们主要介绍的都是小于40平米的装修。集中于一室、一室半、二居之类的。</p>
+
+<p>上限不超过60平米。</p>
+
+<p><strong>【解读：本文讲的是老破小的装修。投资用，而不是自住用。】</strong></p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/3836857-f7dc85e11faf3da1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="HK" /></p>
+
+<p>因为“凤变冰”面积是很重要的一个因素，最理想是30平米以下极小户型。这样的话租金比例回报最高。其次是50平米二居，厅完全不需要。可以住二个家庭。</p>
+
+<p><strong>【解读：这是通过装修提升租金的方法。】</strong></p>
+
+<p>相对于底层消费市场，任何一点舒适性都是浪费。你多5个平米，买来都是价钱，但是并不能显著推高租金。</p>
+
+<p>而一般女性读者会比较关心“标准二房”。也就是90~100平米的2/2/1。这一类的设计该如何处理。</p>
+
+<p>这一类的设计，您找设计师啊。</p>
+
+<p>我们教授的是<strong>买房赚钱</strong>的技巧，不会关心你<strong>文青婆婆妈妈</strong>的自住需求。</p>
+
+<p>想要“温馨家的体验”，把大小姐脾气发在设计师的身上好了。</p>
+
+<p><strong>【解读：投资是投资，自住是自住，要分开来。】</strong></p>
+
+<h2 id="二开始入手">二）开始入手</h2>
+
+<p>装修的第一件事，是找个团队。</p>
+
+<p>找装修团队有二种方法，一种是找著名的装修公司。譬如上海有荣欣、波涛、申远空间。还有百安居，土巴兔，888元/平米的小米装修。</p>
+
+<ul>
+  <li>
+    <p>如果你用百安居装修团队的话，则他们往往会强制你只用B&amp;Q的建材。</p>
+  </li>
+  <li>
+    <p>搜装修队千万别用百度。</p>
+  </li>
+</ul>
+
+<p>选择大型“装修公司”的主要缺点，一个是贵。任何账务，只要通过“装修公司”走帐，7%的营业税是逃不掉的。装修师傅是绝对的政治强势团体。你什么时候见过装修师傅个人交税嘛。</p>
+
+<p>但包进企业，就要交税。</p>
+
+<p>装修公司，一般会额外收你一个5%的“监理费用”。表示他们为你进行了质量监控。</p>
+
+<p>再加上指定购买材料，行政费用和利润。一般找装修公司，总体费用要贵20~25%以上。</p>
+
+<p>而另一个方面，则是装修公司“品质并无保证”。</p>
+
+<p>装修这一行，严格地说一个团队就只有4个人。一个木工，一个泥水匠，一个总装，一个工头。</p>
+
+<p><strong>【解读：其实装修团队就这么几个人，完全没必要找装修公司。】</strong></p>
+
+<p>所以市场上的装修队以小型的“家庭式作坊”为主。</p>
+
+<p>即使是装修公司，其实他也是一个个无数小团队“挂靠”的。</p>
+
+<p>其核心还是四人团队小作坊。无非额外收一层管理手续费。</p>
+
+<p>因此，对于职业多军，他们更多的是选择“御用装修队”。</p>
+
+<p>御用装修队就是说，你先装一二次。觉得效果，服务，态度都不错。以后你就把工头的名片留下来。下次再要装修的话，直接找工头。</p>
+
+<p>这样不用通过“装修公司”中转，节省至少20%的费用。</p>
+
+<p>而且更灵活。小修小补也能弄。</p>
+
+<p>甚至每次租客退房，或准备售房之前，都是需要“保养”维护弄一下的。</p>
+
+<p>多军们的量很大。</p>
+
+<p>以一支典型的装修队为例，流水线滚动操作。一年可以接12~15单。但是多军内部，派给他的单，每年可能就有6~8单。</p>
+
+<p>因此多军和“御用装修队”的关系是非常牢固的。太熟了，他们也就不会坑你。彼此沟通也更默契。</p>
+
+<p>几乎可以说，半支队伍都是我们养起来的。</p>
+
+<h2 id="三装修步骤">三）装修步骤</h2>
+
+<p>装修主要分四个步骤；</p>
+
+<blockquote>
+  <p>1）水电隐蔽工程</p>
+
+  <p>2）木工</p>
+
+  <p>3）泥水匠</p>
+
+  <p>4）总装</p>
+</blockquote>
+
+<p>其中，最令人烦恼的，和技术含量最高的，是第一步：“隐蔽工程”。</p>
+
+<p>和许多人预想的不一样，普通人总以为装修中最难的是什么。</p>
+
+<p>是繁复的吊顶，</p>
+
+<p>射灯，灯光，配饰，</p>
+
+<p>大吊灯，电视柜等等高大上的东西？</p>
+
+<p>都不是，这些东西，甚至可以说是“毫无难度”的。</p>
+
+<p>因为他们都是“表层”的东西。</p>
+
+<p>如果用手来比拟，是骨骼，筋络，肌肉，一直到了最外层的表皮。</p>
+
+<p>在手上涂涂画画，那是最简单的事。洗个手就没了。</p>
+
+<p>大吊灯，电视墙，这些都属于“表层”类的东西。随时可以拆下，搬走。</p>
+
+<p>不客气地说，像侦探片里拍的，给我168个小时，我可以把你家改造得你进门不认识。</p>
+
+<p>而真正困难的，是“隐蔽工程”。</p>
+
+<p>因为现代文明社会，人人爱美。再排明线走管，是绝对不能忍受的事情。</p>
+
+<p>所以一切都是暗线。</p>
+
+<p>暗线意味着，当你这个房子还是毛坯的时候。哪里是电视，哪里是冰箱，哪里是床头柜。哪里手机可以充电，哪里Hi-Fi可以连线，空调挂壁在墙上开哪个位置洞。这些都是六个月之前就要想好的事。</p>
+
+<p><strong>【解读：凡事预则立，不预则废。】</strong></p>
+
+<p>你好比Dolby 5.1音效吧。他是二个喇叭在前方，电视机旁。五个喇叭在后方，沙发环绕。</p>
+
+<p>则你布线，要预先从地板下面穿过，二路线在地面，二路线在天花板。而且音响线还特别讲究。当你还没有开始装修时，你就想好了，这里是放Hi-Fi的，沙发是什么形状的。甚至换个现代款沙发都不行。</p>
+
+<p>但是我们的社会，是一个剧烈变动的社会。</p>
+
+<p>每一天，每一刻，不停地有新科技出现。不停地有新材料。</p>
+
+<p>好比Wifi的出现，就使得原先每个房间预留的网线不再重要。</p>
+
+<p>AirPlay的出现，使得原本预留的视听媒体中心不再重要。AV转接枢纽形如废物。</p>
+
+<p>技术不仅有好处，也有坏处。</p>
+
+<p>你以为你全部都预留到了。</p>
+
+<p>但是你楼上楼下的Wifi需要桥接，而楼梯口没有电源插座怎么办。无数无数的问题。</p>
+
+<p>这就是“大房子装修”和小房子的区别。</p>
+
+<p>随着你面积的增大，你的“深谋远虑”难度是呈指数复杂增加的。</p>
+
+<p>而且大房子的装修周期很长。随着装修的深入，你LP，你老妈，你ZMN，无可避免地会来“视察”。</p>
+
+<p>领导的每一次视察，都会带来新的“最高指示”。</p>
+
+<p><strong>【解读：装修设计最怕住家装修了，因为天天都会有变动。投资类装修，反正不是自己住，就没那么多改动意见了。】</strong></p>
+
+<p>转角可以做个吧台，厨房门可以换个方向开，洗衣机的位置不喜欢，床的背后增加二大排衣柜。</p>
+
+<p>妈咪呀，你知不知道洗衣机换个位置，是要做下排水的。</p>
+
+<p>“隐蔽工程”做好了以后，这一切都是无法更改的。而每一个“合理化”意见，其背后都要非常巨大的工作量。艰苦卓绝的返工。</p>
+
+<p>斑斑血泪。</p>
+
+<p>前些年，某人买了一套世茂滨江。精装豪装。原本是拎包入住的。</p>
+
+<p>可是世茂是老牌豪宅，造的年份太早，室内没有地暖。</p>
+
+<p>老太太一句话，要地暖。那怎么办？</p>
+
+<p>把所有的豪装，腾空60cm。海拔60cm以下的区域，全部铲掉。</p>
+
+<p>把整个地板彻底翘开。不可避免的全部水管电管重铺。</p>
+
+<p>然后安装地暖，然后再重新覆盖上去。</p>
+
+<p>然后你再想想那墙纸………</p>
+
+<p>60cm腾空铲掉。复原后再把墙纸续接上。修旧如旧，颜色一模一样。这又是怎样的难度。</p>
+
+<p>整个工程，耗时8个月。花掉了60几万。而地暖本身的成本，不过十几万。</p>
+
+<p>再有一次，某个做企业装修发了财的亿万富少，买了套洋房自己装。</p>
+
+<p>真心是被他老娘弄烦了。</p>
+
+<p>发下了狠话：“设计图纸怎样的，一个字都不能改。”</p>
+
+<p>哪怕装得土，哪怕没效率，哪怕水龙头装反了。我就是不能让你改。一个字都不能改。</p>
+
+<p>否则不停地返工，这事就没底了。</p>
+
+<p>大少向来以孝顺出名。</p>
+
+<blockquote>
+  <p>“老娘，您要是想提合理化意见。”</p>
+
+  <p>“我把隔壁那套又买下来了，一模一样的户型。咱再装一次不就得了么。”</p>
+</blockquote>
+
+<p>扯得远了，哥哥做大房子，那是斑斑血泪刻骨铭心。</p>
+
+<p>“老破小”流不是我的主战风格，最多只能算略懂二流高手。</p>
+
+<p>老破小的装修，要简单得多多。</p>
+
+<p>40平米的房子，和240平米的房子。装修难度绝对不是相差六倍。而有可能是十六倍。</p>
+
+<p>对于老破小来说，它一共就只有这么点面积。变化不大。</p>
+
+<p>都已经形成了固定套路。无脑照搬即可。</p>
+
+<p>整体工期，可以压缩在45天以内。</p>
+
+<p>而且因为老婆，老娘，ZMN，通常都对“老破小”兴趣不大。</p>
+
+<p>也很少到工地视察，给出最高指示。简直是幸福完美。</p>
+
+<h2 id="四材料和费用">四）材料和费用</h2>
+
+<p>关于装修，小白们最喜欢问的另一个问题，“去哪里买才省钱。”</p>
+
+<p>去哪里买质量有保障，价格便宜，有没有推荐的御用。</p>
+
+<p>我们回答只有二个字：“淘宝”。</p>
+
+<p>很多人忽略了一件事，材料的费用，在今时今日今天，已经越来越不重要了。</p>
+
+<p>2007年我装修一套51平米的房子，一共花了30000元。其中：</p>
+
+<p>装修费22000元，人工费8000。</p>
+
+<p>折算下来，大约是75%：25%。而人力费用在160元/平米。</p>
+
+<p>而今时今日，前天拿到装修师傅关于闵行一套房子报价。其中：</p>
+
+<p>材料费550元/平米，人力费370元/平米。</p>
+
+<p>可见，物料成本在近十年并没有明显的升幅。家电费用还在下降。</p>
+
+<p>而人力成本几乎翻了一倍。占40%。</p>
+
+<p>未来甚至可能人力占50%以上。</p>
+
+<p>而在总体的“物料成本”中，你又可以用ABC分析法。</p>
+
+<p>ABC分析法指工厂企业，仓库管理常用的一种方法。其中：</p>
+
+<blockquote>
+  <p>A类商品，20%商品占了80%价值</p>
+
+  <p>B类，打酱油的</p>
+
+  <p>C类商品，80%商品占了20%价值</p>
+</blockquote>
+
+<p>对于装修成本来说，厨房、卫浴、地板、油漆，这些A类占据了80%以上的货值。</p>
+
+<p>剩下的五金件，腻子，一共才20%价值不到。合计不会超过1万元。</p>
+
+<p>你把四五个大件控制好。剩下1万元何必斤斤计较。</p>
+
+<p>由于整个话题很大。我们后面的篇幅再慢慢细细讲。</p>
+
+<h2 id="思考题">思考题：</h2>
+
+<p>你曾经做的装修，成本是多少钱每平？哪里的钱可以省下来？</p>
+
+
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2018/12/29/ocx32/" data-toggle="tooltip" data-placement="top" title="欧神社区问答精选(12月上)">&larr; 上一篇</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2019/01/04/gds032/" data-toggle="tooltip" data-placement="top" title="凤变冰入门(上)">下一篇 &rarr;</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">分类</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#李翔商业内参" title="李翔商业内参" rel="3">
+                                    李翔商业内参
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#通往财富自由之路" title="通往财富自由之路" rel="11">
+                                    通往财富自由之路
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南" title="房产财富精进指南" rel="31">
+                                    房产财富精进指南
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南/共读社" title="房产财富精进指南/共读社" rel="26">
+                                    房产财富精进指南/共读社
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#每周一书" title="每周一书" rel="15">
+                                    每周一书
+                                </a>
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>更多链接</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.matrixwing.com/">矩阵科技</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'false',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://ark.matrixwing.com/about/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">
+                    知识账本内容来源于网络，版权归原作者所有，如有侵权请立即与我们联系。<br>
+                    Copyright &copy; 知识账本 | 矩阵科技 2019
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("../js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '2e8078b8f0e93105e1a9928997e9aada';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

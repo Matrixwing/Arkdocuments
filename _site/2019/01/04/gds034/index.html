@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>凤变冰入门(下) - 认知升级 | 矩阵科技</title>
+
+    <link rel="canonical" href="http://localhost:4000/2019/01/04/gds034/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">认知升级</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">主页</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">关于</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">目录</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/article/fdc.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/article/fdc.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#房产财富精进指南/共读社" title="房产财富精进指南/共读社">房产财富精进指南/共读社</a>
+                        
+                    </div>
+                    <h1>凤变冰入门(下)</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 且行 on January 4, 2019</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<p><strong>【导读：本文上接<a href="/2019/01/04/gds033/">凤变冰入门(中)</a>。】</strong></p>
+
+<h2 id="十一梦想改造家">十一）梦想改造家</h2>
+
+<p>前阵子，微信上有一篇文章刷爆了屏。</p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzI1ODAyNjcxMw==&amp;mid=2651717523&amp;idx=1&amp;sn=81201a4bcd8340d81837e86a99fce15f&amp;chksm=f1f72225c680ab33cb7e959111c52eca4cb893496350fab27ff87173ebf9d46d8f6bcc02014a&amp;mpshare=1&amp;scene=1&amp;srcid=0927e3IJXRGye1ihP86p1r5o#rd">《那些被爆改过的房子曾连续刷爆朋友圈，然而他们的后续惨状却是…》</a></p>
+
+<p>对于梦想改造家，俺莫名其妙却想引用“科罗廖夫”老师文章;</p>
+
+<p><a href="http://www.toutiao.com/a5231994971">《歪门邪道终非正途：昙花一现的天钩航空母舰》</a>文章中的最后一句话：</p>
+
+<blockquote>
+  <p>天钩航母就像搜房网站里推荐的30平方米的小蜗居也能装修出100平使用空间的那些装修方案，只适合忽悠没住过更大房子的。</p>
+</blockquote>
+
+<p>为什么这么说呢。因为“梦想改造家”他整部片子就是错的。根本就不是那么回事。</p>
+
+<p>在真正的内行人眼中，是可笑的。</p>
+
+<p>乃至是可耻的。</p>
+
+<p>“梦想改造家”其具体套路，和我们说的“凤变冰”其实是一脉相承的。</p>
+
+<p>其主要思想，也是把房间撤空。</p>
+
+<p>本来乱糟糟的东西，全搬空，统一色调（统一榻榻米），自然就显得好看了。</p>
+
+<p>但是，那些被抛弃的衣服被子瓶瓶罐罐，并没有“断离舍”而消失。</p>
+
+<p>等摄影师一走，老人们自然又重新捡回来，把房间塞得乱七八糟。</p>
+
+<p>其境界，甚至还不如水库细分自住市场和出租。</p>
+
+<p>另一方面，“梦想改造家”值得被人诟病的，是他大量地使用“折叠件”。</p>
+
+<p>譬如翻起来是个柜子，翻下来就是床。</p>
+
+<p>叠起来是张桌子，晚上吃饭还是床。</p>
+
+<p>在我们所有的设计方案中，<strong>绝对不要使用折叠件！</strong></p>
+
+<p>在任何一个方案中，绝对不要使用折叠件。这是没良心的做法。</p>
+
+<p>为什么，因为非常容易损坏。</p>
+
+<p><strong>【解读：一般的设计师，只是追求设计的艺术感，毫不考虑设计后用户的使用性特点。】</strong></p>
+
+<p>任何一个稍有装修常识的人，都知道移门比拉门省地方。尤其是小型40平米房型，更可以省2平米开门位置。</p>
+
+<p>可是几乎所有人都使用拉门，甚少移门。为什么。</p>
+
+<p>因为移门很容易坏。其导轨，悬空，被小孩熊孩子蹬二下就坏掉了。</p>
+
+<p>同样的道理，翻叠的床从卓别林“摩登时代”开始，就仅仅在电影作品中存在。</p>
+
+<p>实际生活中非常少，几乎没有任何一个建材市场卖这种产品。</p>
+
+<p>为什么，因为很容易坏。</p>
+
+<p>你150斤的重量压上去，每天翻转三四次。只有非常傻大黑粗的铰链才承受得住。而铰链受得住，木材受不住。</p>
+
+<p>连接口会裂。</p>
+
+<p>再有你想想，床有时候还会摇。</p>
+
+<p>像“梦想改造家”这样的设计方案，本身就是不靠谱的。</p>
+
+<p>本身设计师就是博眼球，没有做的长期居住打算。</p>
+
+<p>哪怕你找一个女文青住进去，而不是老阿婆。最多二三年，它的设施还是会一件件坏过去的。</p>
+
+<p>歪门邪道是没有用的。只有市场上千淬百炼的传统做法才能活得下去。</p>
+
+<p>还是那句话：<strong>只适合忽悠没住过更大房子的。</strong></p>
+
+<h2 id="十二-风格与亮点">十二） 风格与亮点</h2>
+
+<p>前面的1~10节，我们介绍了“凤姐变冰冰”的一些基本套路和做法。</p>
+
+<p>还有这第12节，按照惯例，四个大字：“以上全错”。</p>
+
+<p>凤姐变冰冰是有固定套路的。基本上拿到40平米的一居，一室半，翻来覆去就这几种户型。</p>
+
+<p>我们拿到了手里，也都像是梦游一样。敲光，然后埋水电管。然后做地板和油漆。</p>
+
+<p>有时候御用装修师都已经如此熟悉。他甚至不用你指令，自己就会知道该如何开始干活买料了。</p>
+
+<p>但是，光有这些是不够的。你还需要“做个效果”。</p>
+
+<p>好比一大片白色延绵的墙中，突然升起了一朵嫣红的玫瑰。 <img src="http://upload-images.jianshu.io/upload_images/3836857-fb642f442ec15295.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="tu" /></p>
+
+<p>千篇一律的作品令人厌倦，同时租客也缺乏热点。</p>
+
+<p><strong>所以我们在90%的基调工业化完成的同时，还要花10%的精力，来“做个效果图”。</strong></p>
+
+<p>效果的定义，十分广泛。有很多种选择。</p>
+
+<p>如上图。它马桶的背后挂了一幅画，这就是一个“效果”。花砖腰带，都是“效果”。</p>
+
+<p>相代替的，你可以在淘宝买几十个欧式镜框。做一组“镜框墙”。</p>
+
+<p>又或者是拉二条木板横档，散乱堆几本书在上面。</p>
+
+<p>找瓶花，有条叶子，垂下来。 <img src="http://upload-images.jianshu.io/upload_images/3836857-aaf731f3590def5a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="书架" /></p>
+
+<p>再譬如说，你看它的屋顶，有个吊顶。垂了一个水晶灯下来。</p>
+
+<p>做个吊顶，也是“效果”。</p>
+
+<p><strong>【解读：万绿丛中一点红。】</strong></p>
+
+<p>我们装修房子，追求“极简主义”。</p>
+
+<p>极简的另一个曾用名，咳咳“最省钱”。</p>
+
+<p><strong>【解读：我们一般使用简约方案，额，也就是最省钱方案。】</strong></p>
+
+<p>一般情况下，我们不做吊顶。甚至连屋角四框的边也不勾。</p>
+
+<p>不勾也能出租么，何必浪费钱。</p>
+
+<p>但是你连续操作十套房子，有一套做了画框，有一套做了镜框，有一套做了横栏书架。有一套做个镜子，聚拢一束光。从圆环中射进来。</p>
+
+<p>本套也不妨做个吊顶啊。挂盏灯，挂盏稀奇古怪的灯。</p>
+
+<p>至于吊顶式样，更是随便画了。师傅基本上石膏板都能做出来。 <img src="http://upload-images.jianshu.io/upload_images/3836857-0c21c411ef2b11bb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1" /></p>
+
+<p>再譬如说，你看它左边的这扇门。鎏金堂皇，煞是漂亮。</p>
+
+<p>出租屋自然不会用鎏金烫金门，不过磨砂玻璃，也能变很多戏法的。</p>
+
+<p>你可以喷塑，做背景墙。甚至可以把电视机装在天花板上。</p>
+
+<p>还有人在软装上动脑筋。找一些有机关的家具。</p>
+
+<p>角落里放个酒柜，放个壁炉。自动连接Wifi，连接手机App的门锁。不交租就滚蛋。</p>
+
+<p><strong>戏法人人会变，各看想象力不同。</strong></p>
+
+<p><strong>一般来说，我们的任何一套“凤变冰”房屋，都会绞尽脑汁做1~2个“效果”。</strong></p>
+
+<p>效果不用多，真的做了三个五个，那也没人看。</p>
+
+<p>但一二个“效果”是必须的。每一套房屋都是独一无二的。都是特别匠心。都有特殊的风格在里面。</p>
+
+<p>这样，租客住得舒心。</p>
+
+<p>你也会一辈子记住这个小猪仔。</p>
+
+<h2 id="思考题">思考题：</h2>
+
+<p>说了半天，就是用最少的钱，装出目标客户要的效果，多余的钱一分钱都不要花。我们的装修水平，等于客户能够领略到的水平。所以，你的装修成本是多少钱一平？准备降低到多少？</p>
+
+
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2019/01/04/gds033/" data-toggle="tooltip" data-placement="top" title="凤变冰入门(中)">&larr; 上一篇</a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">分类</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#李翔商业内参" title="李翔商业内参" rel="3">
+                                    李翔商业内参
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#通往财富自由之路" title="通往财富自由之路" rel="11">
+                                    通往财富自由之路
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南" title="房产财富精进指南" rel="31">
+                                    房产财富精进指南
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南/共读社" title="房产财富精进指南/共读社" rel="26">
+                                    房产财富精进指南/共读社
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#每周一书" title="每周一书" rel="15">
+                                    每周一书
+                                </a>
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>更多链接</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.matrixwing.com/">矩阵科技</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'false',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://ark.matrixwing.com/about/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">
+                    知识账本内容来源于网络，版权归原作者所有，如有侵权请立即与我们联系。<br>
+                    Copyright &copy; 知识账本 | 矩阵科技 2019
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("../js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '2e8078b8f0e93105e1a9928997e9aada';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
