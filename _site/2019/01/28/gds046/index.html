@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>2N之通关 - 认知升级 | 矩阵科技</title>
+
+    <link rel="canonical" href="http://localhost:4000/2019/01/28/gds046/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">认知升级</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">主页</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">关于</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">目录</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/article/fdc.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/article/fdc.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#房产财富精进指南/共读社" title="房产财富精进指南/共读社">房产财富精进指南/共读社</a>
+                        
+                    </div>
+                    <h1>2N之通关</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 且行 on January 28, 2019</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<p><strong>【导读：通关了，可以用以前买的房子增值部分做为首付，买以后的房子了。】</strong></p>
+
+<p>退休了，退休了，27岁退休</p>
+
+<h2 id="一前言">一）前言</h2>
+
+<p>许多人都知道，在网上有一些《欧神文集》书籍流传。</p>
+
+<p>但其实这是福建一位网友陈铎，他自己找印刷厂印的。</p>
+
+<p>对于整套出版品，本人不知情，不参与，不受益。</p>
+
+<p>陈铎印刷之前，他找到我，问“欧大，我私下印你的书可以么”。</p>
+
+<p>我答道<a href="http://mp.weixin.qq.com/s/Q8JV3itA-9HMiijxMo3hbA">《如是我观，知识产权 #F520》</a>。</p>
+
+<p>铅笔社反对一切知识产权。虽然我对铅笔社仍有疑虑。但不妨碍我放弃掉原创知识产权。</p>
+
+<p>因此水库的所有文章，转载随意，印刷随意，盗版随意。 <img src="http://upload-images.jianshu.io/upload_images/3836857-5e4bdfba7f37a599.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1" /></p>
+
+<p>接着陈铎又恳求我，当时正好是出IV的时候。他说，“欧大，能不能写二篇文章。网上没有的，只有实体书才有”。</p>
+
+<p>于是就有了<a href="http://mp.weixin.qq.com/s/Wz3dtPGm2-2O-6GGSzHJXA">《天诛晋阶方案 #F690》</a>一文，详细描述了“2N通关——突破”的思路。</p>
+
+<p>所谓戏法人人会变，有时候就是一句话点破的关键。</p>
+
+<p>原文写于2016.05.16，是一篇独立的，突兀的文章。</p>
+
+<p>随着水库微信号的正常进度，一年之后，我们也慢慢地讲到了2N。以及2N之收官大结局。</p>
+
+<p>因此上述<a href="http://mp.weixin.qq.com/s/Wz3dtPGm2-2O-6GGSzHJXA">《天诛晋阶方案 #F690》</a>是不需要的。我们另写一篇。</p>
+
+<p>本文为彻底改写版。</p>
+
+<p>（陈铎的微店：所有的书籍，均为网友私人印刷。和水库无关）</p>
+
+<h2 id="二付出">二）付出</h2>
+
+<p>言归正传。继续讲2N买房子。</p>
+
+<p>之前上一篇<a href="https://fd.zaih.com/column/article/70000037215798554371">《九套十套山穷水尽》</a>已经把道理讲到了尽头。连超自然力量Super Nature的“运气”都搬出来了。</p>
+
+<p>可见这是最后一步，再也走不下去了。</p>
+
+<p>而之后会怎样。是不是写《11，12套吐血十升》《13，14套苟延残喘》？</p>
+
+<p>如果是这样，哥哥该改行写苦情小说去。</p>
+
+<p>不是的，到了第六年，<strong>你通关了</strong>。</p>
+
+<p>地涌清泉，通关。</p>
+
+<p>为什么？</p>
+
+<p>让我们回想一下，当你看到2N系列这些文章时，你的心态是怎样的？</p>
+
+<p>是不是嘴角噙着微笑。感到无比的顺畅。</p>
+
+<p>原来炒房客过得这么惨。最乐意看见你们痛苦折磨得死去活来。哪怕和你不认识陌生人，有多惨你就顺心舒爽。</p>
+
+<p>人同此心，基督教精神有所谓的“七宗罪”。幸灾乐祸原本是人类本能之一。</p>
+
+<p>你看到别人很惨，抽600cc，800cc血液，你就感到很兴奋，很快乐。很安全。</p>
+
+<p><strong>而兴奋的同时，你的智商也下降了。</strong></p>
+
+<p>我们再<strong>复盘</strong>一遍。所谓的2N定理，其实就是400W的资本支出。每一年。</p>
+
+<p>房产投资是一行“重资本”密集型的行业。</p>
+
+<p>房本的扩张严重依赖于固定资产支出。</p>
+
+<p><strong>【解读：每年挖出400万买房，是要持续进行下去的。】</strong></p>
+
+<p>每年400W的现金烧钱，抽血滴血失血的动脉（非静脉）血管。把你折磨得形销骨陨。</p>
+
+<p>但是，但是另一面呢？</p>
+
+<p>当傻空们幸灾乐祸的同时，他们有没有问过另一个良心问题：<strong>“钱呢，钱到哪里去了”？</strong></p>
+
+<blockquote>
+  <p>你每年是有天量的“资本支出”不假。</p>
+
+  <p>可是这些钱呢。钱到哪里去了？</p>
+
+  <p>是不是给你花天酒地，吃喝玩乐，还是赌博嫖娼，挥霍消费快乐掉了？</p>
+</blockquote>
+
+<p>这400W是不是挥出去的拳头，扔出去的水漂。</p>
+
+<p>掉进水里不见了？</p>
+
+<p>答案都不是。</p>
+
+<p>这400W一点都没有少。而是去买房子了。尤其是买京沪深的房子。</p>
+
+<p>你要知道，“买京沪深”房子，是<strong>一件一本万利，赚大钱的事情</strong>。</p>
+
+<p>甚至几乎可以说，过去十年最最最赚钱的行当。</p>
+
+<p>按照我们的算法，粗略来说“单利100%”。</p>
+
+<p><strong>【解读：因为买房最赚钱，所以我们节衣缩食、打滚买房。】</strong></p>
+
+<blockquote>
+  <p>你投400W下去，明年就赚了400W。</p>
+
+  <p>追加投资400W，有800W在池子里。第二年你就赚了800W。</p>
+
+  <p>再追加投资400，有1200W在池子里。第三年就赚了1200W。</p>
+
+  <p>第四年赚1600W。</p>
+
+  <p>累积400+800+1200+1600=4000净利润。最近一年赚1600W，这又是何等的暴利！</p>
+</blockquote>
+
+<p>英文专门引了一个单词描述这个群体：Parvenu</p>
+
+<p>而法文则是：Nouveau riche</p>
+
+<p>看什么看，说的就是你。<img src="http://upload-images.jianshu.io/upload_images/3836857-8dc1d9be3f943dd5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="2" /></p>
+
+<p>当傻空们幸灾乐祸，聚团嘲笑“卡奴”“死去活来”。</p>
+
+<p>他们没有看到故事背后的另一面。</p>
+
+<p>另一面是：财富并没有消失，没有被吃喝嫖赌掉。而是被我们拿去了做投资，甚至是本世纪最赚钱的投资。</p>
+
+<p><strong>钱啊，钱啊，它还在。</strong></p>
+
+<p>那么，“投资为什么没有转换成现金呢”？</p>
+
+<p>因为投资不可以马上转换成现金。它需要时间。</p>
+
+<p>任何一套房产买卖。除了极小户型的凤变冰，他都不是短期之内可以见到利润的。</p>
+
+<p>房产不是股票。你买了之后，三分钟股价就有了波动。睡一觉明天就是T+1。</p>
+
+<p>对于房产来说，一套房子往往要长持二年，五年，甚至更长的时间，你才能落袋变成现金。</p>
+
+<p>如果不满二五年，税费有可能变得非常高。</p>
+
+<p>更糟糕的是，还分“观望期”和“高潮期”。哪怕你抛房子，往往也要等半年风口。大风起兮猪飞扬。</p>
+
+<p>因此我们需要“养猪”，小猪仔需要成熟。尤其不能杀鸡取卵。</p>
+
+<p>一个天才横溢的学生，你是不忍心让他大学没念完，直接去当技工的。</p>
+
+<p>你要给房产留出时间。三年慢吞死水，一涨就涨三倍。</p>
+
+<blockquote>
+  <p>打一个比方，好比某个家庭，一对夫妇养儿子。但他们不是养了二个儿子，他们是养了10个儿子。则这个家庭，基本上就没法过了。</p>
+
+  <p>仅凭夫妻俩的工资，他是难以支持10个孩子上大学，以及杂七杂八的费用的。尤其是“半大小子，吃穷老子”。小孩子到了十六七岁时，开销大了起来，父母俩就算砸锅卖铁，卖血抽血，也供不起这十个孩子的月供。</p>
+
+  <p>“你看隔壁夫妻俩，穷得到菜市场捡菜叶了”。“上个月实在连菜叶也捡光了。幸亏男主人在地上捡了一个钱包，里面有200元钱。才苟延残喘多活了几周”。</p>
+
+  <p>“那象我们家，吃光用光。摄影驴客诗和远方，日子过得不要太潇洒”。</p>
+</blockquote>
+
+<p>这就是典型的对话。隔壁傻空看待多军孜孜不倦“2N”从第一阶到第五阶的历程。</p>
+
+<p>而此后呢。此后终于熬到22岁，多军的第一个大儿子成年。踏上工作岗位了。</p>
+
+<p>小猪仔读大学的时候，他可能是一个巨大的Cost Center。父母们咬牙苦苦支撑养儿子的费用。</p>
+
+<p>可是他一旦开始工作，第一年工资8000，家庭财务就大大好转。</p>
+
+<p>做了三年工作经验，月薪20000。已经远远超过隔壁傻空的全家。</p>
+
+<p>做了六七年开始成为一方人杰。赚钱数以百万计。隔壁赤脚也追不上了。</p>
+
+<p>而这仅仅是第一个儿子。</p>
+
+<p>等你十个儿子都成年，都开始气吞山河如虎呢。</p>
+
+<p>大户，地方上的大户啊。</p>
+
+<p><strong>【解读：培养孩子到赚钱反哺，需要时间；买房到赚钱之间，也是需要时间的。】</strong></p>
+
+<h2 id="三2n模型">三）2N模型</h2>
+
+<p>我们来看数学模型。</p>
+
+<blockquote>
+  <p>第一年：买入A，B</p>
+
+  <p>第二年：买入C，D</p>
+
+  <p>第三年：买入E，F</p>
+
+  <p>第四年：买入G，H</p>
+
+  <p>第五年：买入I，J</p>
+
+  <p>第六年：抛出A，B，买入K，L，M，N</p>
+
+  <p>第七年：抛出C，D，买入O，P，Q，R</p>
+
+  <p>第八年：抛出E，F，买入S，T，U，V</p>
+
+  <p>第九年：抛出G，H，买入W，X，Y，Z（拥有18套）</p>
+</blockquote>
+
+<p>如上表，整个模型的前提，建立在“五年之内房价可以涨很多”。</p>
+
+<p>只有当房价大幅上涨，你才可以在第六年，抛掉A，B，并买入K，L，M，N。</p>
+
+<p>当然，“抛掉”仅仅是一个笼统的说法。</p>
+
+<p>你也完全可以是“截断—加按”。如果交易税费非常非常高的话。</p>
+
+<p><strong>【解读：“截断—加按”，就是把原来贷款全部还掉，然后再抵押出来。例如第一年买的房子，总价400万、贷款280万；到了第五年房价变成了800万。可以先把贷款280万结清，然后抵押贷款560万。相当于净到手280万现金，又可以支持继续买买买了。】</strong></p>
+
+<p>但是“加按”一样需要房价的大幅上涨。我们一般的精算，需要有四倍空间。这样截断七折按揭才有利可图。</p>
+
+<p>可见，所有的事情都是“环环相扣”的。</p>
+
+<p>只有房价的大幅上涨，你第六第七年才可以循环买入。</p>
+
+<p>因为持续的买入，导致你财政崩溃。</p>
+
+<p>你财政崩溃，是因为你看好房价会大涨。</p>
+
+<p>这几件事，几乎就是<strong>头尾相连，循环逻辑。</strong></p>
+
+<p>当你不惜抽血，冒着杀头的风险和无穷的苦难，以“信用卡+高利贷”杠杆式买入房产时；</p>
+
+<p>本身就意味着你极度看好看涨，预估有高额回报。</p>
+
+<p>因为有高额回报，几年之后房子就一定“回哺”于你。</p>
+
+<p>就好像儿子养大了，一定可以升级通关。</p>
+
+<p>当傻空们哈哈大笑，嘲笑你“卡奴”，嘲笑你日子过得苦难。</p>
+
+<p>你内心才是真正瞧不起他们的。</p>
+
+<p><strong>我本来就比你有钱，比你优秀，我还比你更吃苦。几年之后，差距就拉得非常非常远。</strong></p>
+
+<p><strong>【解读：多军，就是这么骄傲。】</strong></p>
+
+<h2 id="四2n之残缺">四）2N之残缺</h2>
+
+<p>同时，我们也说明一下。2N并不一定需要十套不可。哪怕你“第九第十”套没有完成，不影响大局。</p>
+
+<blockquote>
+  <p>第一年：买入A，B</p>
+
+  <p>第二年：买入C，D</p>
+
+  <p>第三年：买入E，F</p>
+
+  <p>第四年：买入G，H</p>
+
+  <p>第五年：（停工）</p>
+
+  <p>第六年：抛出A，B，买入K，L，M，N</p>
+
+  <p>第七年：抛出C，D，买入O，P，Q，R</p>
+
+  <p>第八年：抛出E，F，买入S，T，U，V</p>
+
+  <p>第九年：抛出G，H，买入W，X，Y，Z</p>
+</blockquote>
+
+<p>可见，缺乏“幸运”这个缺口。对于大局是无关的。这也避免了众人对于上一篇的批评。</p>
+
+<p><strong>【解读：中间少个一到两套，无伤大雅。】</strong></p>
+
+<p>可是，我们为什么还要加上“竭尽全力，使用运气”这段章节呢？</p>
+
+<p>因为你再抽掉一年，只剩六套。你也是转得起来的。</p>
+
+<blockquote>
+  <p>第一第二第三年，2N</p>
+
+  <p>第四第五年，休息</p>
+
+  <p>第六第七第八年，卖出2套，买入4套。</p>
+</blockquote>
+
+<p>按照这个逻辑，哪怕你只剩下六套。你也可以“循环往复，依次更生”。</p>
+
+<p>但是，更进一步，只剩下四套，三套，二套呢。</p>
+
+<p>人的堕落是很快的。60分及格线，不仅是一条考核线，也是底线。</p>
+
+<p>我们设下“五年十套，开始2N”。</p>
+
+<p><strong>【解读：但不能真的偷懒耍滑。所以2N，持续5年，走起来。你的人生命运就不一样了。】</strong></p>
+
+<p>是希望你的“底子”打得扎实。基础越深，以后循环越顺畅。武功才能练得越高。</p>
+
+<h2 id="五神仙消费">五）神仙消费</h2>
+
+<p>从第六年开始，“小猪仔”依次成熟。（当然，三年五年成熟都可以。视城市不同）</p>
+
+<p>当“猪仔”成熟之后，他们就可以给你回报。</p>
+
+<p>一般来说，我们需要每年400W的资金。才能维持“每年2N”。</p>
+
+<p>从第六年开始，A单元或卖，或加按。从A单元内抽出200W现金，是一点难度的没有的。</p>
+
+<p>A+B，轻松获得400W现金。</p>
+
+<p>从第六年开始，你只要坐着动动手指，依次加按（A，B）（C，D）（E，F）</p>
+
+<p>你每一年都可以获得400W现金。</p>
+
+<p>这笔钱，你可以用于继续进一步的扩张。继续2N，2N买下去。直到攒满一副扑克牌。</p>
+
+<h2 id="也可以拿去消费">也可以拿去消费！</h2>
+
+<p><strong>【解读：房子每年都可以给你贡献现金了。至于现金是继续投资，还是消费，自己决定。】</strong></p>
+
+<p>在我们之前的篇幅中，我们曾经有承诺。“每年花400W的幸福日子”。</p>
+
+<p>多军所谓的“延迟消费”，是一件<strong>极其可怕</strong>的事情。尤其在房产如此高回报的情况下。</p>
+
+<p>你想一想，每年花400W税后。要什么样级别的金领才能赚得到。</p>
+
+<p>也有人说，“咦，你这400W是加按的。是银行贷款。要还的。不是真钱，不能用于消费的呀”。</p>
+
+<p>其实你仔细想一想，<strong>400W现金，和400W卅年之后归还的贷款，有区别么？</strong></p>
+
+<h2 id="六结语">六）结语</h2>
+
+<p>2N其实是一种数学模型。基于“房价大涨”的大前提下，只要你能积攒五年十套房产在手。</p>
+
+<p>此后你就可以依次收割，每年都有源源不断的财源。以一个循环转轮的方式转动。</p>
+
+<p>2N是可以通关的。而且通关不难。</p>
+
+<p>职业炒家多军群中，有很多人完成了这个标准。</p>
+
+<p>2N之后怎么办呢？</p>
+
+<p>其实有二条路。</p>
+
+<p>一条是消费，每年400W花天酒地少年富贵。</p>
+
+<p>一条是苦憋，继续买入。</p>
+
+<p>尤其是前几年，多军诸多情圣，手握十套内环线，纷纷失恋。主动被女生甩。</p>
+
+<p>怎么办？完全不符合“财上海”理论呀。</p>
+
+<p>本身的消费欲望又不强。那么只好继续买。</p>
+
+<p>如果你仔细观察那个ABCDEFG字母表的话，你会发现一件极其恐怖的事。</p>
+
+<p>那就是：“十套之后怎么样”？</p>
+
+<p>如果滚轮滚到第二圈。从第11套开始，你不是2N，你是4N。</p>
+
+<p>4N之后是6N，然后是8N，12N，16N。</p>
+
+<p>我告诉你一个鬼故事呀：目前群里有几个人是保持着“16N”的速度的。</p>
+
+<p>不说了，说多了都是泪。</p>
+
+<p><strong>【解读：于是，江湖上充满了传说。】</strong></p>
+
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2019/01/28/gds045/" data-toggle="tooltip" data-placement="top" title="九套十套山穷水尽">&larr; 上一篇</a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">分类</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#李翔商业内参" title="李翔商业内参" rel="3">
+                                    李翔商业内参
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#通往财富自由之路" title="通往财富自由之路" rel="11">
+                                    通往财富自由之路
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南" title="房产财富精进指南" rel="31">
+                                    房产财富精进指南
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南/共读社" title="房产财富精进指南/共读社" rel="36">
+                                    房产财富精进指南/共读社
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#每周一书" title="每周一书" rel="15">
+                                    每周一书
+                                </a>
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>更多链接</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.matrixwing.com/">矩阵科技</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'false',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://ark.matrixwing.com/about/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">
+                    知识账本内容来源于网络，版权归原作者所有，如有侵权请立即与我们联系。<br>
+                    Copyright &copy; 知识账本 | 矩阵科技 2019
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("../js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '2e8078b8f0e93105e1a9928997e9aada';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

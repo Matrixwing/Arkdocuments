@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>航母理论 - 认知升级 | 矩阵科技</title>
+
+    <link rel="canonical" href="http://localhost:4000/2019/01/20/gds040/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">认知升级</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">主页</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">关于</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">目录</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/article/fdc.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/article/fdc.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#房产财富精进指南/共读社" title="房产财富精进指南/共读社">房产财富精进指南/共读社</a>
+                        
+                    </div>
+                    <h1>航母理论</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 且行 on January 20, 2019</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<p><strong>【导读：持续买房的基本原理。】</strong></p>
+
+<p>虽然更大的资金，并不一定代表更高的回报。</p>
+
+<p>但很多情况下是的。</p>
+
+<h2 id="一总价天花板">一）总价天花板</h2>
+
+<p>目前的2017年上海市场，面临着一个非常切实、非常实际的棘手问题。</p>
+
+<p>那就是“总价天花板”。</p>
+
+<p><strong>【解读：当然，所谓“总价天花板”，北京、深圳也明显适用，大家读完本文可以对照自己所在的城市来思考。】</strong></p>
+
+<p>譬如说，去年SPI发了一篇文章《上海人的反攻》，讲述淮海路的房子，十年前比中环贵500%，而现在仅仅贵50%，这是极度不合理的状态。</p>
+
+<p>从目前来看，上海面临一个非常严峻的“总价约束”。</p>
+
+<p>我知道你是好东西。</p>
+
+<p>哪怕多付+20%的价格，就能获得+50%的品质。</p>
+
+<p>可我就是拿不出。</p>
+
+<p><strong>【解读：能拿出来的首付有限，能取得的贷款有限，导致了总价约束。】</strong></p>
+
+<p>从目前来看，房价已经不低。至少已经不是“游刃有余”的阶段。</p>
+
+<p>上海人消费者，已经普遍地为了“总价约束”，而抛弃了“性价比”。</p>
+
+<p>从中低端来看，目前最好卖的产品，是“90平米，450W，地铁三房”。</p>
+
+<p>例如前段时间热销的嘉定马陆某楼盘。</p>
+
+<p>如果仅仅从单价上讲，马陆也要卖到了50000元/m，实在是没什么诱惑力。</p>
+
+<p>而从“功能”和总价上讲，450w的三房总价控制得非常好。</p>
+
+<p><strong>【解读：用总价约束，来解释为什么外环外450万总价房子卖的这么好，尽管单价这么高。】</strong></p>
+
+<p>在这样的基础上，消费者宁可坐出去十几公里，每天通行三小时，而买了一个非常非常之偏远的地段。</p>
+
+<p>从中端上讲，中端市场的“红海”，绞杀最激烈的，集中在600~700W的区间。</p>
+
+<p>这个区间，典型的以88m×8W，或者75m×9W</p>
+
+<p>这也就是诸多“中环”八万、九万盘的由来。例如大宁大批楼盘。</p>
+
+<p><strong>【解读：用总价约束，来解释为什么内环内600~700万总价房子卖的这么好，尽管单价这么高。】</strong></p>
+
+<p>在上海市场，120平米的二房，古董已经绝迹很久了。</p>
+
+<p>以单价论，闸北8~9~11W并没有什么优势。</p>
+
+<p>但是以总价论，巧妙符合了这一区段的消费者需求。</p>
+
+<p>以房型做小，舒适品质下降作为代价。</p>
+
+<p>如果我们观察豪宅市场的话，目前的豪宅市场2000W是个槛。</p>
+
+<p>突破了2000W以后，性价比急剧提高。</p>
+
+<p>前两天有人问我，全上海最低估的地段是哪里。</p>
+
+<p>我毫不犹豫地回答：小陆家嘴</p>
+
+<p>纯粹从字面上讲，同为“浦东”。小陆家嘴的房价甚至比周浦还要便宜！</p>
+
+<p>周浦新拍地八万。我们不犹豫它可能推出80平米以下房型为主。</p>
+
+<p>而小陆家嘴呢，小陆的房价也是八万。</p>
+
+<p><strong>【解读：用总价约束，来解释为什么内环内小陆家嘴单价和外环外周浦相同。】</strong></p>
+
+<p>从世茂滨江，仁恒滨江，盛大金磐重灾区。</p>
+
+<p>鹏利海景，财富海景，也就不过10W卖盘遍地。</p>
+
+<p>甚至新盘九龙仓，单价才9.5W。唯一的痛苦，是面积要400平米。总价4000W以上。</p>
+
+<h2 id="二涨潮退潮">二）涨潮退潮</h2>
+
+<p>随着“总价天花板”随之而来的，则是“涨潮退潮”。</p>
+
+<p>上海楼市，如果到了2025年顶峰，顶峰价卖250000元/平米。</p>
+
+<p>则内/中/外的结构，很有可能是25/20/15。而不是一贯以为的25/15/10。</p>
+
+<p>为什么？</p>
+
+<p>真正的问题，不是“外环涨太快”。而是“内环涨不动”。</p>
+
+<p>因为你这是“涨潮期”。房价升得很快，而工资和购买力跟不上。</p>
+
+<p>在涨潮期，才会发生“总价约束”。才会发生+20%价格，+50%品质的现象。</p>
+
+<p>在涨潮期，品质比较卖不出价钱。因为人民为了搭上房产这趟列车，已经精疲力竭了。</p>
+
+<p><strong>【解读：因为总价约束，所以房价快速上涨的涨潮期，内环不如外环外涨幅大。】</strong></p>
+
+<p>你再让他们多跨一步。追求品质和生活质量，哪怕多跨一步他们也跨不动了。</p>
+
+<p>但是我们要反过来想一想，除了“涨潮期”，你还有“退潮期”。</p>
+
+<p>在“退潮期”，并不是每一套房子都跌价的。</p>
+
+<p>真要跌起来，很有可能是25/20/15，跌到了25/15/10。</p>
+
+<p>内环纹丝不动。而外环跌掉了-30%。</p>
+
+<p><strong>【解读：因为总价约束，所以房价下跌的退潮期，内环抗跌性明显比外环外强。】</strong></p>
+
+<p>你设想一下，在一个年收入+14%的国度中，假设房价跌掉了-30%</p>
+
+<p>一来一去，最多三五年的时间，“房价/收入比”压力就会大大减轻。</p>
+
+<p>当生存不再成为一道难题时，人们就会开始追逐生活品质。</p>
+
+<p>你住在马陆，每天花二个小时上班。何苦呢。</p>
+
+<p>如果有能力的话，如果能够负担的话，为什么不换到中环线边上呢。</p>
+
+<p>所以在“退潮期”，优质物业的抗跌能力就会显现。“品质”就能卖出价钱。</p>
+
+<p>人民吃饱了之后，才会开始追逐生存质量。</p>
+
+<p>优质的物业，不一定是涨的时候涨得最快。也包括跌的时候跌的最慢。</p>
+
+<p><strong>【解读：这也是我为什么强调“内环内找笋盘”的原因。】</strong></p>
+
+<h2 id="三跨入蓝海">三）跨入蓝海</h2>
+
+<p>虽然更大的资金，并不一定代表更高的回报。</p>
+
+<p>但很多情况下是的。</p>
+
+<p>一般而言，我们依然笃信“投资门槛”。</p>
+
+<p>一项投资，门槛越是高，其回报也越高。</p>
+
+<p>对于房地产市场，这也一样成立。</p>
+
+<p>如果你真的能够“多掏一点”。则有希望跨出红海，跨入蓝海。</p>
+
+<p>**【解读：参考阅读欧神分答独家文章<a href="http://fd.zaih.com/column/article/70000036638670017473">《冬眠时代》</a>】</p>
+
+<p>有人问，Garbage in garbage out。所谓的“热买热卖”。</p>
+
+<p>就如同顶楼老复式，一楼地下室一样。你买的时候很便宜，不值钱，高折扣。</p>
+
+<p>可是等你卖的时候，你也一样garbage。一样折扣，一样卖不出价钱。</p>
+
+<p>相反，如果你现在买的是70平米二房，小户型，学区房，热得发紫。</p>
+
+<p>等你卖出时，你也一样是“热得发紫”。一样高溢价。从回报比例上来说，并没有亏。</p>
+
+<p>这些人的说法，完全错误。因为市场口味偏好，并不是“一成不变”的。</p>
+
+<p>所谓的“小户型溢价”“70平米偏好”，完全是建立在“涨潮”阶段。又或者是购买力跟不上的“特殊时间段”。</p>
+
+<p>你去成都重庆看看，成都低于120平米的房子根本没人要。因为购买力不是瓶颈。</p>
+
+<p><strong>【解读：具体时间，具体分析；具体城市，具体分析；具体楼盘，具体分析。】</strong></p>
+
+<p>我们最担心的，是“买入时热得烫手”的偏好，到卖出时变得“无人问津”。</p>
+
+<p>我们最喜欢的，是“买入时无人问津”的笋盘，到卖出时“热得烫手”。</p>
+
+<p>所以品质还是很重要的。</p>
+
+<p>品质至少保证了你在“退潮周期”，跌得比别人慢。品质是最后的防线。</p>
+
+<p>我们的建议是，“跨出红海，跨入蓝海”。</p>
+
+<p>只要你拼拼凑凑，挤一挤，你就能买一个“性价比”高得多的东西。</p>
+
+<p>往往也意味着以后“更好的回报”。</p>
+
+<p><strong>【解读：面对总价约束，最好的办法是跨域总价约束，跳出一片总价约束的红海，进入明显有更高性价比的蓝海。】</strong></p>
+
+<h2 id="四航母理论">四）航母理论</h2>
+
+<p>在之前的<a href="http://fd.zaih.com/column/article/70000036601912111548">《流动性的黄昏》</a>一文中，我们说到了，其实你并不需要100%的资产，都保持着非常高的流动性。</p>
+
+<p>哪怕一个几千万的富人，他对流动性的需求，也就是500W够了。剩余的资本，大可以沉淀下来谋取更高的回报。</p>
+
+<p>当我们讲到理财，讲到买房。</p>
+
+<p>当你只有1套房的时候，的确是无所谓。</p>
+
+<p>可是当你有10套房，20套，30套时。为什么你还要保持着“100%的流动性”呢？</p>
+
+<p>当你具有10套房，甚至6~7套的时候。你就可以开始考虑，用一种Portfolio的眼光来看资产。</p>
+
+<p>你要用一个“资产组合包”的态度，来看待你的10套房产。</p>
+
+<p>其中：</p>
+
+<blockquote>
+  <p>有一些是攻的，有一些是守的。</p>
+
+  <p>有一些是长持的，有一些是短炒的。</p>
+
+  <p>有一些是蓝筹的，有一些是妖股的。</p>
+
+  <p>有一些新区的，有一些博动迁的。</p>
+
+  <p>有一些博短期热点，有一些博长期政策变化。</p>
+</blockquote>
+
+<p>变化万千，各有玩法不同。</p>
+
+<p>我们喜欢用“航母编队”来描述这样一种运作。</p>
+
+<p><strong>【解读：航母编队，是资产组合包的概念，不同的房产的属性是不同的，并不需要每一套都具有快速上涨性+快速流通性+很好的租金回报……】</strong></p>
+
+<p>首先，既然“更高的蓝海，意味着更好的回报”。我们往往会拼凑力量，凑出一艘“航母”。</p>
+
+<p>航母并不一定要2000W。对于极贫穷的钟点工来说，哪怕能挤上上海房产这趟列车，对她来说已经是“航母”。</p>
+
+<p>对于中产阶级，如果踮起脚“跳一跳”，多花200W，性价比更上一层楼。也算是毕生心血构筑的航母了。</p>
+
+<p><strong>【解读：这就是航母。每个人资产组合不同，航母的定位也完全不同。】</strong></p>
+
+<p>“君佐臣辅”。在航母的基础上，我们再构建一些外围舰队。</p>
+
+<p>有驱逐舰，巡洋舰，护卫舰。</p>
+
+<p>这些舰艇本身有一定的战斗力。可是他们更多的时候，是为航母提供掩护。以防止你的航母不被“击沉”。</p>
+
+<p>譬如说，经济环境突变，你的大房子空关几个月，还不上月供之类的。</p>
+
+<p>如果手里有二套老公房，你就可以度过寒冬。</p>
+
+<p>海军上有一个关键指标，“火力/吨位”比。</p>
+
+<p>这些辅助性舰艇，虽然“火力/吨位”比赶不上航母。但却是可以提供多功能的用途。</p>
+
+<h2 id="五portfolio的演化">五）Portfolio的演化</h2>
+
+<p>如果你考察任何一支军队的“单兵装备”。则一般都要装备红外线望远镜，无线电通话机，野外生存包裹，以及医药急救包。</p>
+
+<p>但是如果你不是一个人穿越火线，而是以连队为单位集体活动。则你的负担就会轻许多。</p>
+
+<p>因为在“连”的基础上，他可以派出专门的侦察兵。也可以有专门的通讯兵，背负大功率步话机。可以有专门的医生。</p>
+
+<p>而节约出来的体力，则可以以二至三名战士为基础。背负一些机枪，迫击炮之类的机械武器。</p>
+
+<p>显然，一支100人的连队，其战斗力要远远强于单人*100。</p>
+
+<p>同样道理，如果你把行动规模扩展到“团”的级别。</p>
+
+<p>则在团的基础上，你的兵种更复杂，搭配更合理，战斗力更强大。</p>
+
+<p>在团的基础上，你可以有专门的工兵连，汽车连，火箭炮连，摩托车侦察大队。</p>
+
+<p>再进一步，扩展到万人级别的“师”。或者十万人级别的“军”。</p>
+
+<p>则结构更加复杂。兵种更加繁复。战斗力也是指数增长的。</p>
+
+<p>在我们很早的文章，<a href="https://mp.weixin.qq.com/s/E_7J1WCMKLXgbCKZ-IaNsw">《发财的数量级》</a>一文中，我们就说到。</p>
+
+<p>一只蚂蚁变成大象，绝对不是简单的把尺寸放大1000倍。</p>
+
+<p>同样道理，当一个买房客，从1套房变成10套房。</p>
+
+<p>他可以获得额外的“加成”。</p>
+
+<p>主要是靠“流动性”的管理。</p>
+
+<p>你不需要连队的每一个人都背负医疗包和野战包。同样道理，你也不需要你手中每一套房子都“攻守兼备”。</p>
+
+<p>他们完全可以梯次分布，形成航母，驱逐舰，护卫舰的层次关系。</p>
+
+<p>兵种搭配合理，挖掘更多潜力。</p>
+
+<p><strong>【解读：当资产比较多，就可以对资产进行专业分工，各自具备不同的属性，从而达到资产的总体的攻守兼备。】</strong></p>
+
+<h2 id="作业题">作业题：</h2>
+
+<p>你的资产组合包、你的航母编队准备怎么构建？目前你最缺的是航母，还是可以随时变现的小舢板？</p>
+
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2019/01/20/gds039/" data-toggle="tooltip" data-placement="top" title="每年买2N定理">&larr; 上一篇</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2019/01/20/gds041/" data-toggle="tooltip" data-placement="top" title="你的第一第二套房子">下一篇 &rarr;</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">分类</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#李翔商业内参" title="李翔商业内参" rel="3">
+                                    李翔商业内参
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#通往财富自由之路" title="通往财富自由之路" rel="11">
+                                    通往财富自由之路
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南" title="房产财富精进指南" rel="31">
+                                    房产财富精进指南
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#房产财富精进指南/共读社" title="房产财富精进指南/共读社" rel="36">
+                                    房产财富精进指南/共读社
+                                </a>
+                            
+        				
+                            
+                				<a href="/tags/#每周一书" title="每周一书" rel="15">
+                                    每周一书
+                                </a>
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>更多链接</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.matrixwing.com/">矩阵科技</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'false',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://ark.matrixwing.com/about/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">
+                    知识账本内容来源于网络，版权归原作者所有，如有侵权请立即与我们联系。<br>
+                    Copyright &copy; 知识账本 | 矩阵科技 2019
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("../js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+<script>
+    // dynamic User by Hux
+    var _baId = '2e8078b8f0e93105e1a9928997e9aada';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
