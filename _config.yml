@@ -86,3 +86,5 @@ friends: [
         href: "http://www.matrixwing.com/"
     }
 ]
+
+theme: jekyll-theme-modernist
