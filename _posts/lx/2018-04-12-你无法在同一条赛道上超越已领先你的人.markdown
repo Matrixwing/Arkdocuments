@@ -3,7 +3,7 @@ layout:     post
 title:      "你无法在同一条赛道上超越已经领先你的人"
 subtitle:   "李翔商业内参"
 date:       2018-04-12
-author:     "李翔"
+author:     "且行"
 header-img: "img/article/gs.jpg"
 tags:
     - 李翔商业内参
